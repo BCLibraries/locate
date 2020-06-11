@@ -25,3 +25,10 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    App\Service\MapImageFileLocator:
+        class: App\Service\MapImageFileLocator
+        arguments: ['%kernel.project_dir%','public/maps']
+
+    App\Command\CommandLineAuthorization:
+        class: App\Command\CommandLineAuthorization
+        arguments: ['staff']
