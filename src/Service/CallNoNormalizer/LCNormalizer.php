@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service;
+namespace App\Service\CallNoNormalizer;
 
 /**
  * Normalize Library of Congress call numbers
@@ -25,7 +25,7 @@ namespace App\Service;
  *
  * See: http://robotlibrarian.billdueber.com/2008/11/normalizing-loc-call-numbers-for-sorting/
  *
- * @package App\Service
+ * @package App\Service\CallNoNormalizer
  */
 class LCNormalizer implements CallNumberNormalizer
 {

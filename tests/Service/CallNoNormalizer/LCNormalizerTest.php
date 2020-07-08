@@ -2,7 +2,7 @@
 
 namespace App\Tests\Service;
 
-use App\Service\LCNormalizer;
+use App\Service\CallNoNormalizer\LCNormalizer;
 use PHPUnit\Framework\TestCase;
 
 class LCNormalizerTest extends TestCase
