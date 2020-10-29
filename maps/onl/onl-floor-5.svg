@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="975px" xmlns:xlink="http://www.w3.org/1999/xlink" height="928.727px" viewBox="0 0 960 921" enable-background="new 0 0 1920 928.727" xml:space="preserve" style="background-color:#EDEDED">
+
+    <g id="shelf-map__visible-map">
+        <polygon id="shelf-map__bare-floor" fill="none" points="1026,572 846,572 846,287 1025,287 1025,183 1018,183 1018,135 963,135 963,168 847,168 847,183
+                324,183 324,443 364,443 364,499 231,499 231,853 605,853 605,803 771,803 771,612 847.476,612 954,612 954,618 1026,618"/>
+
+        <g id="shelf-map__rooms">
+            <rect x="771" y="676" width="588" height="126"/>
+            <rect x="846" y="287" width="119" height="285"/>
+            <rect x="847" y="89" width="116" height="79"/>
+            <rect x="192" y="443" width="172" height="56"/>
+            <rect x="395" y="443" width="90" height="56"/>
+        </g>
+
+        <g id="shelf-map__main_stairs">
+            <polygon fill="#E6E6E6" points="847.476,612 771,612 771,690.242 776.516,702.016 784.639,711.365 786.451,714.827 797.572,720.368 806.594,722.792 819.417,721.754 833.272,715.174 839.854,707.557 848.166,693.021"/>
+            <use xlink:href="#shelf-map__stairs" transform="translate(39,0)"/>
+            <use xlink:href="#shelf-map__stairs"/>
+            <text transform="matrix(1 0 0 1 791.084 635.6006)" font-family="'Verdana'" font-size="10">STAIRS</text>
+        </g>
+
+        <g id="shelf-map__womens-room">
+            <rect x="848" y="612" fill="#29ABE2" width="59" height="127"/>
+            <g class="icon">
+                <circle cx="878.08" cy="674.688" r="2.737"/>
+                <path d="M878.08,674.688"/>
+                <path d="M877.675,694.791l0.001,9.481c0,1.723-2.581,1.723-2.581,0l-0.001-9.416h-3.466L875.333,682h-0.575l-2.156,7.253 c-0.513,1.582-2.685,0.932-2.188-0.762l2.394-7.88c0.256-0.897,1.393-2.49,3.36-2.49h1.813l0,0h1.952 c1.949,0,3.091,1.605,3.386,2.49l2.394,7.872c0.479,1.693-1.676,2.395-2.189,0.744L881.37,682h-0.623l3.735,12.856h-3.471v9.429 c0,1.71-2.57,1.701-2.57,0v-9.494H877.675z"/>
+            </g>
+        </g>
+
+        <g id="shelf-map__mens-room">
+            <polygon fill="#29ABE2" points="965.9,740 907,740 907,612 954,612 954,618 966.939,618"/>
+            <g class="icon">
+                <circle cx="938.428" cy="673.704" r="2.896"/>
+                <path d="M938.428,673.705"/>
+                <path d="M935.329,677.238c-2.051,0-3.7,1.674-3.7,3.76v8.891c0,1.729,2.53,1.729,2.53,0v-8.131h0.599v22.263 c0,2.311,3.369,2.242,3.369,0v-12.922h0.581v12.922c0,2.242,3.387,2.311,3.387,0v-22.263h0.584v8.131 c0,1.741,2.517,1.741,2.512,0v-8.838c0-1.924-1.493-3.808-3.746-3.808L935.329,677.238z"/>
+            </g>
+        </g>
+
+        <g id="shelf-map__elevators">
+            <polygon fill="#E4E2E7" points="430.908,443.002 395.384,442.148 395.588,485.594 431.195,485.006"/>
+            <polygon fill="#E4E2E7" points="364.423,485.594 330.143,485.335 329.238,442.343 364.463,442.148"/>
+            <use xlink:href="#shelf-map__elevator"/>
+            <use xlink:href="#shelf-map__elevator" x="68"/>
+        </g>
+
+        <g id="shelf-map__study-rooms">
+            <rect x="231" y="853" fill="#BDCDD1" width="374" height="68"/>
+            <use xlink:href="#shelf-map__book" x="-434" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-389" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-349" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-309" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-268" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-227" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-187" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-145" y="114"/>
+            <use xlink:href="#shelf-map__book" x="-103" y="114"/>
+        </g>
+
+        <g id="shelf-map__stacks">
+            <g id="shelf-map__row_4">
+                <g>
+                    <text x="666" y="760">Rows 128-171</text>
+                    <use xlink:href="#shelf-map__corner-arrow-up" x="738" y="742"/>
+                </g>
+                <use xlink:href="#shelf-map__row-4-short-shelf-broken" x="669" y="732" data-down="140" data-up="141"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="669" y="711" data-down="142" data-up="143"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="669" y="690" data-down="144" data-up="146"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="669" y="669" data-down="146" data-up="147"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="669" y="649" data-down="148" data-up="149"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="669" y="629" data-down="150" data-up="151"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf-broken" x="669" y="609" data-down="152" data-up="153"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf-2" x="669" y="568" data-down="154" data-up="155"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf-2" x="669" y="544" data-down="156" data-up="157"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="524" data-down="158" data-up="159"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="502" data-down="160" data-up="161"/>
+                <use xlink:href="#shelf-map__row-4-full-shelf-broken" x="669" y="483" data-down="162" data-up="163"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="464" data-down="164" data-up="165"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="445" data-down="166" data-up="167"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="426" data-down="168" data-up="169"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="406" data-down="170" data-up="171"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="386" data-down="172" data-up="173"/>
+                <use xlink:href="#shelf-map__row-4-full-shelf-broken" x="669" y="366" data-down="174" data-up="175"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="346" data-down="176" data-up="177"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="326" data-down="178" data-up="179"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="305" data-down="180" data-up="181"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="283" data-down="182" data-up="183"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="260" data-down="184" data-up="185"/>
+                <use xlink:href="#shelf-map__row-4-full-shelf-broken" x="669" y="240" data-down="186" data-up="187"/>
+                <use xlink:href="#shelf-map__full-shelf" x="669" y="218" data-down="188" data-up="189"/>
+            </g>
+
+            <g id="shelf-map__row_3">
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="518" y="816" data-down="139" data-up="138"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="518" y="794" data-down="137" data-up="136"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="518" y="774" data-down="135" data-up="134"/>
+                <use xlink:href="#shelf-map__row-4-short-shelf" x="518" y="753" data-down="133" data-up="132"/>
+                <use xlink:href="#shelf-map__row-3-shelf-broken" x="518" y="732" data-down="131" data-up="130"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="711" data-down="129" data-up="128"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="690" data-down="127" data-up="126"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="669" data-down="125" data-up="124"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="649" data-down="123" data-up="122"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="629" data-down="121" data-up="120"/>
+                <use xlink:href="#shelf-map__row-3-shelf-broken" x="518" y="609" data-down="119" data-up="118"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="568" data-down="117" data-up="116"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="546" data-down="115" data-up="114"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="523" data-down="113" data-up="112"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="502" data-down="111" data-up="110"/>
+                <use xlink:href="#shelf-map__row-3-shelf-broken" x="518" y="483" data-down="109" data-up="108"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="464" data-down="107" data-up="106"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="444" data-down="105" data-up="104"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="426" data-down="103" data-up="102"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="406" data-down="101" data-up="100"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="386" data-down="99" data-up="98"/>
+                <use xlink:href="#shelf-map__row-3-shelf-broken" x="518" y="366" data-down="97" data-up="96"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="346" data-down="95" data-up="94"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="326" data-down="93" data-up="92"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="305" data-down="91" data-up="90"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="283" data-down="89" data-up="88"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="260" data-down="87" data-up="86"/>
+                <use xlink:href="#shelf-map__row-3-shelf-broken" x="518" y="240" data-down="85" data-up="84"/>
+                <use xlink:href="#shelf-map__full-shelf" x="518" y="218" data-down="83" data-up="82"/>
+                <g>
+                    <text x="518" y="213">Rows 76-127</text>
+                    <use xlink:href="#shelf-map__corner-arrow-down" x="584" y="197"/>
+                </g>
+            </g>
+
+            <g id="shelf-map__row_2">
+                <g>
+                    <text x="372" y="846">Rows 31-75</text>
+                    <use xlink:href="#shelf-map__corner-arrow-up" x="432" y="828"/>
+                </g>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="816" data-down="31" data-up="32"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="794" data-down="33" data-up="34"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="774" data-down="35" data-up="36"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="753" data-down="37" data-up="38"/>
+                <use xlink:href="#shelf-map__row-2-shelf-broken" x="372" y="732" data-down="39" data-up="40"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="711" data-down="41" data-up="42"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="690" data-down="43" data-up="44"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="669" data-down="45" data-up="46"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="649" data-down="47" data-up="48"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="629" data-down="49" data-up="50"/>
+                <use xlink:href="#shelf-map__row-2-shelf-broken" x="372" y="609" data-down="51" data-up="52"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="568" data-down="53" data-up="54"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="544" data-down="55" data-up="56"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="524" data-down="57" data-up="58"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="502" data-down="59" data-up="60"/>
+                <use xlink:href="#shelf-map__vertical-shelf" x="488" y="448" data-right="61"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="408" data-down="62" data-up="63"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="387" data-down="64" data-up="65"/>
+                <use xlink:href="#shelf-map__row-2-shelf-broken" x="372" y="366" data-down="66" data-up="67"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="346" data-down="68" data-up="69"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="326" data-down="70" data-up="71"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="305" data-down="72" data-up="73"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="283" data-down="74" data-up="75"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="260" data-down="76" data-up="77"/>
+                <use xlink:href="#shelf-map__row-2-shelf-broken" x="372" y="240" data-down="78" data-up="79"/>
+                <use xlink:href="#shelf-map__full-shelf" x="372" y="218" data-down="80" data-up="81"/>
+            </g>
+
+            <g id="shelf-map__row_1">
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="816" height="12" data-down="30" data-up="29"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="794" height="12" data-down="28" data-up="27"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="774" height="12" data-down="26" data-up="25"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="753" height="12" data-down="24" data-up="23"/>
+                <use xlink:href="#shelf-map__row-1-short-shelf" x="271" y="732" height="12" data-down="22" data-up="21"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="711" height="12" data-down="20" data-up="19"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="690" height="12" data-down="18" data-up="17"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="669" height="12" data-down="16" data-up="15"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="649" height="12" data-down="14" data-up="13"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="629" height="12" data-down="12" data-up="11"/>
+                <use xlink:href="#shelf-map__row-1-short-shelf" x="271" y="609" height="12" data-down="10" data-up="9"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="588" height="12" data-down="8" data-up="7"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="567" height="12" data-down="6" data-up="5"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="543" height="12" data-down="4" data-up="3"/>
+                <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="521" height="12" data-down="2" data-up="1"/>
+                <g>
+                    <text x="271" y="515">Rows 1-30</text>
+                    <use xlink:href="#shelf-map__corner-arrow-down" x="325" y="500"/>
+                </g>
+            </g>
+        </g>
+
+        <g id="shelf-map__computers">
+            <path fill="#1A1A1A" d="M797.576,586.228h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V586.228z M780.076,573.728v10 h15v-10H780.076z"/>
+            <path fill="#1A1A1A" d="M797.576,562.67h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V562.67z M780.076,550.17v10h15 v-10H780.076z"/>
+        </g>
+
+        <!-- @TODO Delete unused elements -->
+        <g id="lines">
+            <path d="M883,612h-35v80.644c-16,44.561-67.783,38.66-76.514-4.125"/>
+            <line x1="771" y1="611" x2="771" y2="801"/>
+            <polygon fill="none" stroke="#4D4D4D" points="605,802 1523.748,802 1559.068,837 1665,837 1665,776 1641,776
+                1641,61 1017,61 1017,24 963,24 963,61 232,61 232,442 192,442 192,499 231,499 231,921 605,921"/>
+            <line x1="915" y1="612" x2="899" y2="612"/>
+            <polyline points="848,692 848,739 967,739 967,618 954,618 954,612 929,612"/>
+            <line x1="907" y1="611" x2="907" y2="739"/>
+            <line x1="860" y1="635" x2="849" y2="635"/>
+            <polyline points="936,635 907.727,635 874,635"/>
+            <line x1="967" y1="635" x2="948" y2="635"/>
+            <line x1="1551.277" y1="803.994" x2="1538.811" y2="816.459"/>
+            <polyline points="1641,776 1579.845,776 1562.896,792.881"/>
+            <line x1="976" y1="618" x2="967" y2="618"/>
+            <polyline points="988,572 1025,572 1025,618 999,618"/>
+            <polyline points="965,571 965,288 846,288 846,572 971,572"/>
+            <line x1="1024" y1="258" x2="1024" y2="183"/>
+            <polyline points="966,450 1024,450 1024,272"/>
+            <line x1="972" y1="288" x2="965" y2="288"/>
+            <line x1="1025" y1="288" x2="986" y2="288"/>
+            <line x1="990" y1="292" x2="990" y2="288"/>
+            <line x1="990" y1="350" x2="990" y2="305"/>
+            <line x1="990" y1="370" x2="990" y2="365"/>
+            <line x1="990" y1="412" x2="990" y2="384"/>
+            <line x1="990" y1="450" x2="990" y2="427"/>
+            <line x1="1024" y1="409" x2="990" y2="409"/>
+            <line x1="1024" y1="367" x2="990" y2="367"/>
+            <polyline points="990,327 1023.036,327 1271,327 1271,183"/>
+            <polyline points="1017,61 1017,183 1519,183 1519,487 1640,487"/>
+            <polyline points="1017,172 993,172 993,191"/>
+            <line x1="963" y1="61" x2="963" y2="191"/>
+            <polyline points="962,88 847,88 847,183 324,183 324,442"/>
+            <line x1="963" y1="168" x2="847" y2="168"/>
+            <line x1="970" y1="136" x2="963" y2="136"/>
+            <line x1="1018" y1="136" x2="985" y2="136"/>
+            <line x1="848" y1="802" x2="848" y2="739"/>
+            <rect x="518" y="535" width="43" height="40"/>
+            <rect x="518" y="413" width="43" height="39"/>
+            <line x1="294" y1="499" x2="231" y2="499"/>
+            <polyline points="364,472 364,499 309,499"/>
+            <polyline points="232,442 364,442 364,456"/>
+            <line x1="364" y1="486" x2="328" y2="486"/>
+            <line x1="329" y1="498" x2="329" y2="442"/>
+            <polyline points="395,472 395,498 485,498 485,443 395,443 395,456"/>
+            <line x1="395" y1="486" x2="431" y2="486"/>
+            <line x1="431" y1="498" x2="431" y2="443"/>
+            <line x1="262" y1="854" x2="231" y2="854"/>
+            <line x1="302" y1="854" x2="275" y2="854"/>
+            <line x1="341" y1="854" x2="316" y2="854"/>
+            <line x1="383" y1="854" x2="354" y2="854"/>
+            <line x1="424" y1="854" x2="397" y2="854"/>
+            <line x1="461" y1="854" x2="437" y2="854"/>
+            <line x1="505" y1="854" x2="475" y2="854"/>
+            <line x1="546" y1="854" x2="518" y2="854"/>
+            <line x1="582" y1="854" x2="559" y2="854"/>
+            <line x1="605" y1="854" x2="596" y2="854"/>
+            <line x1="564" y1="921" x2="564" y2="854"/>
+            <line x1="521" y1="921" x2="521" y2="854"/>
+            <line x1="481" y1="921" x2="481" y2="854"/>
+            <line x1="441" y1="921" x2="441" y2="854"/>
+            <line x1="400" y1="921" x2="400" y2="854"/>
+            <line x1="359" y1="921" x2="359" y2="854"/>
+            <line x1="320" y1="921" x2="320" y2="854"/>
+            <line x1="278" y1="921" x2="278" y2="854"/>
+            <line x1="809" y1="690" x2="809" y2="645"/>
+            <polyline points="996,490 1025,490 1025,592"/>
+            <line x1="974" y1="490" x2="965" y2="490"/>
+            <polyline points="1025,490 1359,490 1359,801"/>
+        </g>
+
+        <rect x="517" y="413" fill="#4D4D4D" width="45" height="39"/>
+        <rect x="517" y="535" fill="#4D4D4D" width="45" height="39"/>
+
+    </g>
+    <defs>
+        <style type="text/css">
+  <![CDATA[
+            text {
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 12px;
+                fill: #607D8B;
+            }
+
+            #lines line, #lines polyline, #lines rect, #lines path {
+                fill: none;
+                stroke: #4D4D4D;
+                stroke-width: 2;
+            }
+
+            .shelf-map__shelf-body {
+                fill: #87AFDD;
+            }
+
+            .shelf-map__shelf-shadow {
+                fill: #999999;
+            }
+
+            #shelf-map__rooms polygon, #shelf-map__rooms rect {
+                fill: #4D4D4D;
+            }
+
+            .shelf-map__arrow {
+                fill: #FFEE00;
+                stroke-width: 1;
+                stroke: #000000;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+                stroke-miterlimit: 3;
+            }
+            ]]>
+        </style>
+
+        <symbol id="shelf-map__book">
+            <path fill="#666666" d="M700.371,786.976c-0.474,0.203-2.04,0.813-4.697,1.828s-4.427,1.768-5.307,2.26
+				c-0.136,0.066-0.372,0.168-0.711,0.305c-0.051,0.186-0.144,0.338-0.279,0.457c-0.152,0.135-0.321,0.203-0.508,0.203h-1.625
+				c-0.187,0-0.347-0.061-0.482-0.178c-0.152-0.137-0.254-0.289-0.305-0.457c-0.339-0.152-0.575-0.254-0.711-0.305
+				c-0.88-0.508-2.649-1.262-5.307-2.26c-2.675-1.033-4.24-1.643-4.697-1.828c-0.187-0.102-0.347-0.246-0.482-0.432
+				c-0.136-0.238-0.203-0.449-0.203-0.635v-17.697c0-0.203,0.067-0.373,0.203-0.508c0.136-0.068,0.296-0.076,0.482-0.025
+				c0.863,0.406,1.837,0.896,2.92,1.473c1.083,0.66,1.904,1.15,2.463,1.473c0.575,0.406,1.565,1.057,2.971,1.955
+				c0.524,0.371,1.295,0.643,2.311,0.813l0.025-0.025c-0.017-0.254,0.06-0.441,0.229-0.559c0.152-0.203,0.339-0.279,0.559-0.229
+				l1.625-0.076c0.22,0.051,0.406,0.127,0.559,0.229c0.169,0.219,0.245,0.414,0.229,0.584l0.025,0.152
+				c1.016-0.254,1.786-0.525,2.311-0.813c1.405-0.982,2.396-1.625,2.971-1.93c0.559-0.424,1.38-0.906,2.463-1.447
+				c1.083-0.695,2.057-1.186,2.92-1.473c0.187-0.17,0.347-0.162,0.482,0.025c0.136,0.016,0.203,0.186,0.203,0.508v17.52
+				c0,0.305-0.067,0.516-0.203,0.635c-0.136,0.305-0.296,0.457-0.482,0.457H700.371z M678.23,767.323l0.025-0.584
+				c-0.017-0.322,0.034-0.492,0.152-0.508c0.102-0.188,0.237-0.195,0.406-0.025c2.285,1.1,4.579,2.707,6.881,4.824l-0.152-0.127
+				c-0.271,0.084-0.491,0.203-0.66,0.355C682.683,769.751,680.465,768.44,678.23,767.323z M690.291,770.903
+				c2.302-1.947,4.596-3.555,6.881-4.824c0.169,0,0.305,0.008,0.406,0.025c0.118,0.186,0.169,0.355,0.152,0.508l0.025,0.838
+				c-2.234,0.947-4.452,2.26-6.652,3.936c-0.187-0.322-0.406-0.441-0.66-0.355L690.291,770.903z"/>
+        </symbol>
+
+        <symbol id="shelf-map__elevator">
+            <path d="M334.51,481.238v-15.663h0.003c0-1.562,1.201-2.86,2.854-2.86h15.699c1.598,0,2.853,1.28,2.853,2.86v15.663l0,0.004 c0.003,1.667-1.272,2.838-2.835,2.838h-15.717l0,0C335.805,484.08,334.51,482.837,334.51,481.238z"/>
+            <rect x="337.468" y="465.71" fill="#FFFFFF" width="15.492" height="15.401"/>
+            <path d="M349.087,450.594c-0.017-2.049,2.946-2.072,2.964,0l-0.045,6.217l1.595-1.953c1.1-1.208,3.035,0.476,1.841,1.841 l-3.866,4.603c-0.611,0.611-1.405,0.607-2.012,0l-3.848-4.621c-1.195-1.365,0.759-3.067,1.841-1.841l1.576,1.971 L349.087,450.594z"/>
+            <path d="M338.328,460.226c-0.017,2.048,2.947,2.071,2.964,0l-0.045-6.217l1.594,1.953c1.1,1.208,3.036-0.476,1.841-1.841 l-3.866-4.603c-0.611-0.611-1.405-0.607-2.012,0l-3.848,4.621c-1.194,1.365,0.759,3.067,1.841,1.841l1.576-1.971 L338.328,460.226z"/>
+            <path d="M352.226,474.533c0,0.312-0.251,0.529-0.527,0.529c0,0-3.464,0-3.469,0c-0.272,0-0.528-0.221-0.528-0.529v-3.771 c0-0.432,0.347-0.728,0.726-0.728c-0.003,0,3.072,0,3.072,0c0.413,0,0.727,0.328,0.727,0.728V474.533z"/>
+            <path d="M351.377,474.923h-1.32v5.099c0,0.904,1.32,0.904,1.32,0V474.923z"/>
+            <path d="M349.857,474.923h-1.32v5.099c0,0.897,1.32,0.897,1.32,0V474.923z"/>
+            <circle cx="349.977" cy="468.737" r="0.991"/>
+            <path d="M349.977,468.737"/>
+            <path d="M347.483,474.533c0,0.312-0.251,0.529-0.526,0.529c0,0-3.465,0-3.469,0c-0.272,0-0.528-0.221-0.528-0.529v-3.771 c0-0.432,0.347-0.728,0.726-0.728c-0.003,0,3.071,0,3.071,0c0.413,0,0.727,0.328,0.727,0.728V474.533z"/>
+            <path d="M346.636,474.923h-1.32v5.099c0,0.904,1.32,0.904,1.32,0V474.923z"/>
+            <path d="M345.115,474.923h-1.32v5.099c0,0.897,1.32,0.897,1.32,0V474.923z"/>
+            <circle cx="345.234" cy="468.737" r="0.991"/>
+            <path d="M345.234,468.737"/>
+            <path d="M342.742,474.533c0,0.312-0.251,0.529-0.527,0.529c0,0-3.464,0-3.469,0c-0.272,0-0.528-0.221-0.528-0.529v-3.771 c0-0.432,0.347-0.728,0.726-0.728c-0.003,0,3.071,0,3.071,0c0.413,0,0.727,0.328,0.727,0.728V474.533z"/>
+            <path d="M341.894,474.923h-1.32v5.099c0,0.904,1.32,0.904,1.32,0V474.923z"/>
+            <path d="M340.373,474.923h-1.32v5.099c0,0.897,1.32,0.897,1.32,0V474.923z"/>
+            <circle cx="340.493" cy="468.737" r="0.991"/>
+            <path d="M340.493,468.737"/>
+        </symbol>
+
+        <symbol id="shelf-map__stairs-arrow">
+            <polygon fill="#4D4D4D" points="788,675 786.161,675 789.99,679.931 793.819,675 792,675 792,652 793.819,652 789.99,647.068
+				786.161,652 788,652"/>
+        </symbol>
+
+        <symbol id="shelf-map__stairs">
+			<rect x="770.5" y="674.5" fill="#CCCCCC" stroke="#333333" width="38" height="6"/>
+            <rect x="770.5" y="668.5" fill="#CCCCCC" stroke="#4D4D4D" width="38" height="6"/>
+            <rect x="770.5" y="662.5" fill="#CCCCCC" stroke="#666666" width="38" height="6"/>
+            <rect x="770.5" y="655.5" fill="#CCCCCC" stroke="#808080" width="38" height="7"/>
+            <rect x="770.5" y="649.5" fill="#CCCCCC" stroke="#999999" width="38" height="6"/>
+            <rect x="770.5" y="644.5" fill="#CCCCCC" stroke="#B3B3B3" width="38" height="5"/>
+            <polygon fill="#4D4D4D" points="788,675 786.161,675 789.99,679.931 793.819,675 792,675 792,652 793.819,652 789.99,647.068
+				786.161,652 788,652"/>
+        </symbol>
+
+        <symbol id="shelf-map__full-shelf" data-centerpoint="67" data-thickness="12">
+            <rect x="2.5" y="2.5" width="134" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="134" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__vertical-shelf" data-centerpoint="23" data-thickness="12">
+            <rect x="2.5" y="2.5" width="12" height="46" class="shelf-map__shelf-shadow"/>
+            <rect width="14" height="46" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-1-full-shelf" data-centerpoint="43.5" data-thickness="12">
+            <rect x="2.5" y="2.5" width="87" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="87" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-1-short-shelf" data-centerpoint="38" data-thickness="12">
+            <rect x="2.5" y="2.5" width="76" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="76" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-2-shelf-broken" data-centerpoint="65.5" data-thickness="12">
+            <rect x="2.5" y="2.5" width="110" height="12" class="shelf-map__shelf-shadow"/>
+            <rect x="121.5" y="2.5" width="12" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="110" height="12" class="shelf-map__shelf-body"/>
+            <rect x="119" width="12" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-3-shelf-broken" data-centerpoint="66.5" data-thickness="12">
+            <rect x="3" y="3" width="73" height="12" class="shelf-map__shelf-shadow"/>
+            <rect x="87.7" y="2.5" width="48" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="73" height="12" class="shelf-map__shelf-body"/>
+            <rect x="85" width="48" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-4-short-shelf" data-centerpoint="31.5" data-thickness="12">
+            <rect x="2.5" y="2.5" width="73" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="73" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-4-short-shelf-2" data-centerpoint="47.5" data-thickness="12">
+            <rect x="2.5" y="2.5" width="95" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="95" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-4-short-shelf-broken" data-centerpoint="36" data-thickness="12">
+            <rect x="2.5" y="2.5" width="46" height="12" class="shelf-map__shelf-shadow"/>
+            <rect x="62.5" y="3" width="13" height="12" class="shelf-map__shelf-shadow"/>
+            <rect width="46" height="12" class="shelf-map__shelf-body"/>
+            <rect x="59" width="13" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__row-4-full-shelf-broken" data-thickness="12">
+            <rect x="62.5" y="3" width="74" height="12" class="shelf-map__shelf-shadow"/>
+            <rect x="2.5" y="2.5" width="46" height="12" class="shelf-map__shelf-shadow"/>
+            <rect x="59" width="74" height="12" class="shelf-map__shelf-body"/>
+            <rect width="46" height="12" class="shelf-map__shelf-body"/>
+        </symbol>
+
+        <symbol id="shelf-map__arrow-left" data-width="50" data-height="30">
+            <path d="m 0 15 l 20 15 l 0 -10 l 30 0 l 0 -9 l -30 0 l 0 -10 Z" class="shelf-map__arrow"/>
+        </symbol>
+
+        <symbol id="shelf-map__arrow-right" data-width="50" data-height="30">
+            <path d="m 50 15 l -20 15 l 0 -10 l -30 0 l 0 -9 l 30 0 l 0 -10 Z" class="shelf-map__arrow"/>
+        </symbol>
+
+        <symbol id="shelf-map__arrow-down" data-width="30" data-height="50">
+            <path d="m 15 50 l 15 -20 l -10 0 l 0 -30 l -9 0 l 0 30 l -10 0 Z" class="shelf-map__arrow"/>
+        </symbol>
+
+        <symbol id="shelf-map__arrow-up" data-width="30" data-height="50">
+            <path d="m 15 0 l 15 20 l -10 0 l 0 30 l -9 0 l 0 -30 l -10 0 Z" class="shelf-map__arrow"/>
+        </symbol>
+
+        <symbol id="shelf-map__corner-arrow-up">
+            <path stroke="none" fill="none" d="M0 0h24v24H0z"/>
+            <path stroke="#607D8B" stroke-width="1" fill="none" d="M6 18h6a3 3 0 0 0 3 -3v-10l-5 5m10 0l-5 -5"/>
+        </symbol>
+
+        <symbol id="shelf-map__corner-arrow-down">
+            <path stroke="none" fill="none" d="M0 0h24v24H0z"/>
+            <path stroke="#607D8B" stroke-width="1" fill="none" d="M6 6h6a3 3 0 0 1 3 3v10l-5 -5m10 0l-5 5"/>
+        </symbol>
+
+        <symbol id="shelf-map__map-pin">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="38" height="38" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFEB3B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"/>
+                <path stroke="#000000" stroke-width="1" fill="#FFEB3B" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z"/>
+                <circle stroke="#000000" stroke-width="1.5" fill="#FFFFFF" cx="12" cy="11" r="3"/>
+            </svg>
+        </symbol>
+    </defs>
+</svg>
