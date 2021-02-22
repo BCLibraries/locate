@@ -10,7 +10,6 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity(repositoryClass="App\Repository\MapRepository")
  * @ORM\Table(
  *     name="map",
- *     uniqueConstraints={@ORM\UniqueConstraint(name="code_unique",columns={"code"})}
  * )
  */
 class Map
