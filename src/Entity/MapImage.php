@@ -13,12 +13,6 @@ class MapImage
     /** @ORM\Column(type="string", length=255) */
     private $filename;
 
-    /** @ORM\Column(type="smallint", options={"unsigned":true}) */
-    private $height;
-
-    /** @ORM\Column(type="smallint", options={"unsigned":true}) */
-    private $width;
-
     public function getOriginalFilename(): string
     {
         return $this->original_filename;
@@ -38,28 +32,6 @@ class MapImage
     public function setFilename(string $filename): self
     {
         $this->filename = $filename;
-        return $this;
-    }
-
-    public function getHeight(): int
-    {
-        return $this->height;
-    }
-
-    public function setHeight(int $height):self
-    {
-        $this->height = $height;
-        return $this;
-    }
-
-    public function getWidth(): int
-    {
-        return $this->width;
-    }
-
-    public function setWidth(int $width): self
-    {
-        $this->width = $width;
         return $this;
     }
 }

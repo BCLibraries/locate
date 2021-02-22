@@ -6,7 +6,7 @@ use App\Exception\BadFileException;
 
 class MapImageFileValidator extends FileValidator
 {
-    private const VALID_MIME_TYPES = ['image/jpeg', 'image/png'];
+    private const VALID_MIME_TYPES = ['image/svg+xml'];
 
     /**
      * @param string $file_under_test

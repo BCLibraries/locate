@@ -9,13 +9,13 @@ use Doctrine\ORM\EntityManagerInterface;
 
 class ShelflistImporter
 {
-    /** @var ShelflistFileFileValidator */
+    /** @var ShelflistFileValidator */
     private $file_validator;
 
     /** @var EntityManagerInterface */
     private $em;
 
-    public function __construct(ShelflistFileFileValidator $file_validator, EntityManagerInterface $em)
+    public function __construct(ShelflistFileValidator $file_validator, EntityManagerInterface $em)
     {
         $this->file_validator = $file_validator;
         $this->em = $em;

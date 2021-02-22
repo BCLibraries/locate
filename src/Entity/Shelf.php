@@ -36,17 +36,8 @@ class Shelf
     /** @ORM\Column(type="string", length=255) */
     private $end_sort_call_number;
 
-    /** @ORM\Column(type="smallint", options={"unsigned":true}) */
-    private $x;
-
-    /** @ORM\Column(type="smallint", options={"unsigned":true}) */
-    private $y;
-
     /** @ORM\ManyToOne(targetEntity="App\Entity\Map", inversedBy="shelves") */
     private $map;
-
-    /** @ORM\Column(type="smallint", options={"unsigned":true}) */
-    private $orientation;
 
     public function getId(): ?int
     {

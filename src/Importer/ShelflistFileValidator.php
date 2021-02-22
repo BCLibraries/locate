@@ -4,7 +4,7 @@ namespace App\Importer;
 
 use App\Exception\BadCommandArgumentException;
 
-class ShelflistFileFileValidator extends FileValidator
+class ShelflistFileValidator extends FileValidator
 {
     private const VALID_MIME_TYPES = ['text/plain'];
 
