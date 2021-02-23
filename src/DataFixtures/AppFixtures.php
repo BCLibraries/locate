@@ -73,9 +73,7 @@ class AppFixtures extends Fixture
 
     private function buildMap(ObjectManager $manager, $library, string $filename, string $code, string $label): Map
     {
-        $map_image = new MapImage($filename, $filename);
-        $map = new Map($library, $code, $label);
-        $map->setImage($map_image);
+        $map = new Map($library, $code, $label, $filename);
         $manager->persist($map);
         return $map;
     }

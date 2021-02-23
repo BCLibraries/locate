@@ -2,7 +2,7 @@
 
 namespace App\Command;
 
-use App\Repository\MapImageRepository;
+use App\Repository\MapRepository;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -21,12 +21,10 @@ class LocateMapsListCommand extends Command
 {
     protected static $defaultName = 'locate:maps:list';
 
-    /**
-     * @var MapImageRepository
-     */
+    /** @var MapRepository */
     private $maps;
 
-    public function __construct(MapImageRepository $maps)
+    public function __construct(MapRepository $maps)
     {
         parent::__construct();
         $this->maps = $maps;
@@ -34,8 +32,7 @@ class LocateMapsListCommand extends Command
 
     protected function configure(): void
     {
-        $this
-            ->setDescription('List available map codes');
+        $this->setDescription('List available map codes');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -46,7 +43,7 @@ class LocateMapsListCommand extends Command
 
         $maps = $this->maps->findAll();
         foreach ($maps as $map) {
-            $row[] = [$map->getCode(), $map->getFilename(), $map->getDescription()];
+            $row[] = [$map->getCode(), $map->getLabel(), $map->getFilename()];
         }
 
         $io->title('Available Maps');

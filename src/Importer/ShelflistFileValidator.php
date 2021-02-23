@@ -15,12 +15,6 @@ class ShelflistFileValidator extends FileValidator
         }
     }
 
-
-    public function z(string $shelflist, ?string $mapfile = null): void
-    {
-
-    }
-
     /**
      * @param string $shelflist
      * @return bool
@@ -29,6 +23,4 @@ class ShelflistFileValidator extends FileValidator
     {
         return file_exists($shelflist) && $this->fileHasFormat($shelflist, self::VALID_MIME_TYPES);
     }
-
-
 }

@@ -36,14 +36,15 @@ class Map
     /** @ORM\OneToMany(targetEntity="App\Entity\Shelf", mappedBy="map") */
     private $shelves;
 
-    /** @ORM\Embedded(class = "MapImage") */
-    private $image;
+    /** @ORM\Column(type="string", length=255) */
+    private $filename;
 
-    public function __construct(Library $library, string $code, string $label)
+    public function __construct(Library $library, string $code, string $label, string $filename)
     {
         $this->library = $library;
         $this->code = $code;
         $this->label = $label;
+        $this->filename = $filename;
         $this->shelves = new ArrayCollection();
     }
 
@@ -119,15 +120,14 @@ class Map
         return $this;
     }
 
-    public function getImage(): MapImage
+    public function getFilename(): string
     {
-        return $this->image;
+        return $this->filename;
     }
 
-    public function setImage(MapImage $image): void
+    public function setFilename(string $filename): void
     {
-        $this->image = $image;
+        $this->filename = $filename;
     }
-
 
 }

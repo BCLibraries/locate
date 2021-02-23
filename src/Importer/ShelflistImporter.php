@@ -2,9 +2,11 @@
 
 namespace App\Importer;
 
+use App\Entity\Map;
 use App\Entity\MapImage;
 use App\Entity\BongoBoo;
 use App\Entity\Shelf;
+use App\Service\CallNoNormalizer\LCNormalizer;
 use Doctrine\ORM\EntityManagerInterface;
 
 class ShelflistImporter
@@ -15,30 +17,37 @@ class ShelflistImporter
     /** @var EntityManagerInterface */
     private $em;
 
-    public function __construct(ShelflistFileValidator $file_validator, EntityManagerInterface $em)
+    /** @var LCNormalizer */
+    private $lc_normalizer;
+
+    public function __construct(ShelflistFileValidator $file_validator, EntityManagerInterface $em, LCNormalizer $lc_normalizer)
     {
         $this->file_validator = $file_validator;
         $this->em = $em;
+        $this->lc_normalizer = $lc_normalizer;
     }
 
-    public function import(string $shelflist, MapImage $map, ?string $mapfile): ImportReport
+    public function import(string $shelflist, Map $map, ?string $mapfile): ImportReport
     {
         $report = new ImportReport();
-        $this->file_validator->validate($shelflist, $mapfile);
+        $this->file_validator->validate($shelflist);
 
         $handle = fopen($shelflist, 'rb');
 
         while (($data = fgetcsv($handle, 1000, "\t")) !== false) {
-            $shelf = new Shelf();
-            $shelf->setMapImage($map);
-            $num = count($data);
-            echo "<p> $num fields in line $row: <br /></p>\n";
-            $row++;
-            foreach ($data as $cValue) {
-                echo $cValue . "<br />\n";
-            }
+
+            $code = $data[0];
+            $start_call_no = $data[1];
+            $end_call_no = $data[2];
+            $normalized_start_callno = $this->lc_normalizer->normalize($start_call_no);
+            $normalized_end_callno = $this->lc_normalizer->normalize($end_call_no);
+
+            $shelf = new Shelf($map, $code, $start_call_no, $normalized_start_callno, $end_call_no, $normalized_end_callno);
+            $this->em->persist($shelf);
         }
         fclose($handle);
+
+        $this->em->flush();
 
         return $report;
     }

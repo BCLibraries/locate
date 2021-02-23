@@ -6,6 +6,7 @@ use App\Entity\MapImage;
 use App\Exception\BadCommandArgumentException;
 use App\Importer\ShelflistImporter;
 use App\Repository\MapImageRepository;
+use App\Repository\MapRepository;
 use Exception;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -42,7 +43,7 @@ class LocateImportShelflistCommand extends Command
     /** @var MapImageRepository */
     private $maps;
 
-    public function __construct(ShelflistImporter $importer, MapImageRepository $maps)
+    public function __construct(ShelflistImporter $importer, MapRepository $maps)
     {
         $this->importer = $importer;
         $this->maps = $maps;
@@ -78,9 +79,11 @@ class LocateImportShelflistCommand extends Command
         $shelflist = $input->getArgument('shelflist');
         $mapfile = $input->getOption('mapfile');
 
-        // Find the map, or build a new one.
         $map = $this->maps->findOneBy(['code' => $map_code]);
-        $map = $map ?? $this->buildMap($map_code, $mapfile);
+
+        if ($map === null) {
+            throw new BadCommandArgumentException("Couldn't find map $map_code");
+        }
 
         $report = $this->importer->import($shelflist, $map, $mapfile);
     }
