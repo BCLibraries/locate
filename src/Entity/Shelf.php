@@ -39,6 +39,16 @@ class Shelf
     /** @ORM\ManyToOne(targetEntity="App\Entity\Map", inversedBy="shelves") */
     private $map;
 
+    public function __construct(Map $map, string $code, string $start_call_number, string $start_sort_call_number, string $end_call_number, string $end_sort_call_number)
+    {
+        $this->map = $map;
+        $this->code = $code;
+        $this->start_call_number = $start_call_number;
+        $this->start_sort_call_number = $start_sort_call_number;
+        $this->end_call_number = $end_call_number;
+        $this->end_sort_call_number = $end_sort_call_number;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -104,30 +114,6 @@ class Shelf
         return $this;
     }
 
-    public function getX(): ?int
-    {
-        return $this->x;
-    }
-
-    public function setX(int $x): self
-    {
-        $this->x = $x;
-
-        return $this;
-    }
-
-    public function getY(): ?int
-    {
-        return $this->y;
-    }
-
-    public function setY(int $y): self
-    {
-        $this->y = $y;
-
-        return $this;
-    }
-
     public function getMap(): ?Map
     {
         return $this->map;
@@ -136,18 +122,6 @@ class Shelf
     public function setMap(?Map $map): self
     {
         $this->map = $map;
-
-        return $this;
-    }
-
-    public function getOrientation(): int
-    {
-        return $this->orientation;
-    }
-
-    public function setOrientation(in $orientation): self
-    {
-        $this->orientation = $orientation;
 
         return $this;
     }

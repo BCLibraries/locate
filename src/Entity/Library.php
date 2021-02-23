@@ -51,9 +51,11 @@ class Library
     /** @ORM\OneToMany(targetEntity="App\Entity\Map", mappedBy="library", orphanRemoval=true) */
     private $maps;
 
-    public function __construct()
+    public function __construct(string $code, string $label)
     {
         $this->maps = new ArrayCollection();
+        $this->code = $code;
+        $this->label = $label;
     }
 
     public function getId(): ?int

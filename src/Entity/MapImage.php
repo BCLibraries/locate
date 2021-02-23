@@ -13,6 +13,12 @@ class MapImage
     /** @ORM\Column(type="string", length=255) */
     private $filename;
 
+    public function __construct(string $original_filename, string $filename)
+    {
+        $this->original_filename = $original_filename;
+        $this->filename = $filename;
+    }
+
     public function getOriginalFilename(): string
     {
         return $this->original_filename;
@@ -24,7 +30,7 @@ class MapImage
         return $this;
     }
 
-    public function getFilename():string
+    public function getFilename(): string
     {
         return $this->filename;
     }
