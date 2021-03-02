@@ -2,29 +2,33 @@
 
 namespace App\Service\MapRewriter;
 
-use App\Entity\MapImage;
+use App\Entity\Map;
 
 class MapRewriter
 {
     /** @var \SimpleXMLElement */
     private $svg;
 
-    /** @var MapImage */
-    private $file;
+    /** @var Map */
+    private $map;
 
     /** @var string */
     private $stacks_xpath;
 
     /**
-     * @param MapImage $file the map SVG image file
+     * @param Map $file the map we're looking for
      * @param string $stacks_xpath the XPath prefix for the stacks
      */
-    public function __construct(MapImage $file, string $stacks_xpath = '/')
+    public function __construct(Map $file, string $stacks_xpath = '/')
     {
-        $this->svg = simplexml_load_string(file_get_contents($file->getFilename()));
+        $maps_dir = __DIR__ . '/../../../maps/';
+        $library_subdir = $file->getLibrary()->getCode();
+        $full_file_path = "$maps_dir/$library_subdir/{$file->getFilename()}.svg";
+
+        $this->svg = simplexml_load_string(file_get_contents($full_file_path));
         $this->svg->registerXPathNamespace(SvgNamespaces::SVG_ALIAS, SvgNamespaces::SVG_URI);
         $this->svg->registerXPathNamespace(SvgNamespaces::XLINK_ALIAS, SvgNamespaces::XLINK_URI);
-        $this->file = $file;
+        $this->map = $file;
         $this->stacks_xpath = $stacks_xpath;
     }
 
@@ -46,13 +50,13 @@ class MapRewriter
 
             // If a shelf node matches, add an arrow to it and return.
             if (isset($shelf_node)) {
-                $this->insertArrow($shelf_node, $arrow);
+                $this->paintArrow($shelf_node, $arrow);
                 return $this->svg->asXML();
             }
         }
 
         // If we did not find a matching shelf, something went terribly wrong.
-        throw new BadShelfQueryException("Could not find shelf $shelf in {$this->file->getFilename()}");
+        throw new BadShelfQueryException("Could not find shelf $shelf in {$this->map->getFilename()}");
     }
 
     /**
@@ -60,7 +64,7 @@ class MapRewriter
      * @param ArrowInterface $arrow the kind of arrow we want
      * @throws BadShelfQueryException
      */
-    private function insertArrow(ShelfNode $shelf_node, ArrowInterface $arrow): void
+    private function paintArrow(ShelfNode $shelf_node, ArrowInterface $arrow): void
     {
         // Get the shelf geometry.
         $coords = $shelf_node->getCoordinates();

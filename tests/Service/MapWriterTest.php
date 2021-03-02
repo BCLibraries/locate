@@ -2,6 +2,7 @@
 
 namespace App\Tests;
 
+use App\Entity\Map;
 use App\Entity\MapImage;
 use App\Service\MapRewriter\MapRewriter;
 use PHPUnit\Framework\TestCase;
@@ -17,7 +18,8 @@ class MapWriterTest extends TestCase
 
         $rewriter = new MapRewriter($image);
 
-        $svg = $rewriter->addArrow('83'); file_put_contents(self::SAVE_FILE, $svg);
+        $svg = $rewriter->addArrow('83');
+        file_put_contents(self::SAVE_FILE, $svg);
 
         $this->assertTrue(true);
     }
