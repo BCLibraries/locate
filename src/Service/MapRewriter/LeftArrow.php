@@ -4,13 +4,8 @@
 namespace App\Service\MapRewriter;
 
 
-class LeftArrow implements ArrowInterface
+class LeftArrow extends Arrow
 {
-    public function getSymbolId(): string
-    {
-        return 'shelf-map__arrow-left';
-    }
-
     public function getDataAttribute(): string
     {
         return 'data-right';
@@ -18,11 +13,11 @@ class LeftArrow implements ArrowInterface
 
     public function getXOffset(float $width, float $shelf_center_point, float $shelf_thickness): float
     {
-        return $shelf_thickness + ($shelf_thickness / 2);
+        return $shelf_thickness - $width/2;
     }
 
     public function getYOffset(float $height, float $shelf_center_point, float $shelf_thickness): float
     {
-        return $shelf_center_point - $height / 2;
+        return -$shelf_center_point;
     }
 }

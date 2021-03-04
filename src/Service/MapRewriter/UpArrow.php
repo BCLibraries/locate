@@ -2,13 +2,8 @@
 
 namespace App\Service\MapRewriter;
 
-class UpArrow implements ArrowInterface
+class UpArrow extends Arrow
 {
-    public function getSymbolId(): string
-    {
-        return 'shelf-map__arrow-up';
-    }
-
     public function getDataAttribute(): string
     {
         return 'data-down';
@@ -16,11 +11,11 @@ class UpArrow implements ArrowInterface
 
     public function getXOffset(float $width, float $shelf_center_point, float $shelf_thickness): float
     {
-        return $shelf_center_point - $width / 2;
+        return $shelf_center_point - $width/2;
     }
 
     public function getYOffset(float $height, float $shelf_center_point, float $shelf_thickness): float
     {
-        return  $shelf_thickness + ($shelf_thickness / 2);
+        return -$height + 2 * $shelf_thickness;
     }
 }

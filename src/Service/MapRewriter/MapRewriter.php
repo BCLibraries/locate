@@ -61,10 +61,10 @@ class MapRewriter
 
     /**
      * @param ShelfNode $shelf_node the shelf to point to
-     * @param ArrowInterface $arrow the kind of arrow we want
+     * @param Arrow $arrow the kind of arrow we want
      * @throws BadShelfQueryException
      */
-    private function paintArrow(ShelfNode $shelf_node, ArrowInterface $arrow): void
+    private function paintArrow(ShelfNode $shelf_node, Arrow $arrow): void
     {
         // Get the shelf geometry.
         $coords = $shelf_node->getCoordinates();
@@ -106,10 +106,10 @@ class MapRewriter
      * right side refers to shelf 31.
      *
      * @param string $shelf the shelf ID
-     * @param ArrowInterface $arrow the kind of arrow we are looking for
+     * @param Arrow $arrow the kind of arrow we are looking for
      * @return ShelfNode|null the matching shelf
      */
-    private function getShelfNode(string $shelf, ArrowInterface $arrow): ?ShelfNode
+    private function getShelfNode(string $shelf, Arrow $arrow): ?ShelfNode
     {
         // Look for shelves with a data- attribute corresponding to the type of
         // arrow we're using.

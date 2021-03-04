@@ -684,20 +684,10 @@
             <rect x="93" width="70" height="12" class="shelf-map__shelf-body"/>
         </symbol>
 
-        <symbol id="shelf-map__arrow-left" data-width="50" data-height="30">
-            <path d="m 0 15 l 20 15 l 0 -10 l 30 0 l 0 -9 l -30 0 l 0 -10 Z" class="shelf-map__arrow"/>
-        </symbol>
-
-        <symbol id="shelf-map__arrow-right" data-width="50" data-height="30">
-            <path d="m 50 15 l -20 15 l 0 -10 l -30 0 l 0 -9 l 30 0 l 0 -10 Z" class="shelf-map__arrow"/>
-        </symbol>
-
-        <symbol id="shelf-map__arrow-down" data-width="30" data-height="50">
-            <path d="m 15 50 l 15 -20 l -10 0 l 0 -30 l -9 0 l 0 30 l -10 0 Z" class="shelf-map__arrow"/>
-        </symbol>
-
-        <symbol id="shelf-map__arrow-up" data-width="30" data-height="50">
-            <path d="m 15 0 l 15 20 l -10 0 l 0 30 l -9 0 l 0 -30 l -10 0 Z" class="shelf-map__arrow"/>
+        <symbol id="shelf-map__map-pin" data-width="35" data-height="52">
+            <svg width="52" height="52" viewBox="0 0 24 24">
+                <path fill="yellow" stroke="black" d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+            </svg>
         </symbol>
     </defs>
 </svg>
