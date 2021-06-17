@@ -17,18 +17,13 @@ class MapRewriter
 
     /**
      * @param Map $file the map we're looking for
+     * @param MapFileReader $svg_reader
      * @param string $stacks_xpath the XPath prefix for the stacks
      */
-    public function __construct(Map $file, string $stacks_xpath = '/')
+    public function __construct(Map $file, MapFileReader $svg_reader, string $stacks_xpath = '/')
     {
-        $maps_dir = __DIR__ . '/../../../maps/';
-        $library_subdir = $file->getLibrary()->getCode();
-        $full_file_path = "$maps_dir/$library_subdir/{$file->getFilename()}.svg";
-
-        $this->svg = simplexml_load_string(file_get_contents($full_file_path));
-        $this->svg->registerXPathNamespace(SvgNamespaces::SVG_ALIAS, SvgNamespaces::SVG_URI);
-        $this->svg->registerXPathNamespace(SvgNamespaces::XLINK_ALIAS, SvgNamespaces::XLINK_URI);
         $this->map = $file;
+        $this->svg = $svg_reader->readSvg($this->map);
         $this->stacks_xpath = $stacks_xpath;
     }
 

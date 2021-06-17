@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Repository\ShelfRepository;
 use App\Service\CallNoNormalizer\LCNormalizer;
 use App\Service\MapRewriter\BadShelfQueryException;
+use App\Service\MapRewriter\MapFileReader;
 use App\Service\MapRewriter\MapRewriter;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -26,11 +27,12 @@ class MapController extends AbstractController
      *
      * @param ShelfRepository $shelf_repository
      * @param LCNormalizer $normalizer
+     * @param MapFileReader $map_file_reader
      * @param Request $request
      * @return Response
      * @throws BadShelfQueryException
      */
-    public function index(ShelfRepository $shelf_repository, LCNormalizer $normalizer, Request $request): Response
+    public function index(ShelfRepository $shelf_repository, LCNormalizer $normalizer, MapFileReader $map_file_reader, Request $request): Response
     {
         $library_code = $request->query->get('lib');
         $call_number = $request->query->get('callno');
@@ -38,12 +40,12 @@ class MapController extends AbstractController
 
         $shelf = $shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
 
-        $rewriter = new MapRewriter($shelf->getMap());
+        $rewriter = new MapRewriter($shelf->getMap(), $map_file_reader);
         $svg_string = $rewriter->addArrow($shelf->getCode());
 
         $response = new Response();
         $response->setContent($svg_string);
-        $response->headers->set('Content-type','image/svg+xml');
+        $response->headers->set('Content-type', 'image/svg+xml');
 
 
         return $response;

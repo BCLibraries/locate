@@ -5,7 +5,7 @@ namespace App\Importer;
 use App\Entity\Map;
 use App\Entity\MapImage;
 use App\Exception\BadFileException;
-use App\Service\MapImageFileLocator;
+use App\Service\MapFileReader;
 
 /**
  * Imports map image files
@@ -24,18 +24,18 @@ class MapImageImporter
     /** @var MapImageFileValidator */
     private $validator;
 
-    /** @var MapImageFileLocator */
+    /** @var MapFileReader */
     private $locator;
 
     /**
      * MapImageImporter constructor.
      *
      * @param MapImageFileValidator $validator
-     * @param MapImageFileLocator $locator
+     * @param MapFileReader $locator
      */
     public function __construct(
         MapImageFileValidator $validator,
-        MapImageFileLocator $locator
+        MapFileReader $locator
     ) {
         $this->validator = $validator;
         $this->locator = $locator;
