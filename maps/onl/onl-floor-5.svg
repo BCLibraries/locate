@@ -264,6 +264,13 @@
                 fill: #607D8B;
             }
 
+                text.label {
+        font-family: Georgia, serif;
+        font-size: 24px;
+        fill: #FFFFFF;
+    }
+
+
             #lines line, #lines polyline, #lines rect, #lines path {
                 fill: none;
                 stroke: #4D4D4D;

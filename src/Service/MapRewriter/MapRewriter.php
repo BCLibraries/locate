@@ -55,6 +55,32 @@ class MapRewriter
     }
 
     /**
+     * Add a label node to the SVG
+     *
+     * @param string $text
+     * @return string
+     */
+    public function addLabel(string $text): string
+    {
+        $group = $this->svg->addChild('g');
+        $box = $group->addChild('rect');
+        $box->addAttribute('width','300');
+        $box->addAttribute('height', '100');
+        $box->addAttribute('fill', '#000000');
+        $text = $group->addChild('text',$text);
+        $text->addAttribute('x',50);
+        $text->addAttribute('y', 50);
+        $text->addAttribute('font-family', 'Georgia');
+        $text->addAttribute('fill', '#FFFFFF');
+        $text->addAttribute('font-size', '55');
+        $text->addAttribute('class', 'label');
+
+
+        //$box = new \SimpleXMLElement('<rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />');
+        return $this->svg->asXML();
+    }
+
+    /**
      * @param ShelfNode $shelf_node the shelf to point to
      * @param Arrow $arrow the kind of arrow we want
      * @throws BadShelfQueryException
