@@ -15,7 +15,7 @@ class CommandLineAuthorization
     /** @var string */
     private $authorized_group;
 
-    public function __construct(string $authorized_group)
+    public function __construct(string $authorized_group = "staff")
     {
         $this->authorized_group = $authorized_group;
     }

@@ -3,8 +3,9 @@
 namespace App\Repository;
 
 use App\Entity\Map;
+use Doctrine\Bundle\DoctrineBundle\Registry;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 
 /**
  * @method Map|null find($id, $lockMode = null, $lockVersion = null)
