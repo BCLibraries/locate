@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="975px" xmlns:xlink="http://www.w3.org/1999/xlink" height="928.727px" viewBox="0 0 960 921" enable-background="new 0 0 1920 928.727" xml:space="preserve" style="background-color:#EDEDED">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="100 200 900 800" xml:space="preserve">
 
     <g id="shelf-map__visible-map">
         <polygon id="shelf-map__bare-floor" fill="none" points="1026,572 846,572 846,287 1025,287 1025,183 1018,183 1018,135 963,135 963,168 847,168 847,183
@@ -18,7 +18,7 @@
             <polygon fill="#E6E6E6" points="847.476,612 771,612 771,690.242 776.516,702.016 784.639,711.365 786.451,714.827 797.572,720.368 806.594,722.792 819.417,721.754 833.272,715.174 839.854,707.557 848.166,693.021"/>
             <use xlink:href="#shelf-map__stairs" transform="translate(39,0)"/>
             <use xlink:href="#shelf-map__stairs"/>
-            <text transform="matrix(1 0 0 1 791.084 635.6006)" font-family="'Verdana'" font-size="10">STAIRS</text>
+            <text transform="matrix(1 0 0 1 791.084 635.6006)" font-size="10">STAIRS</text>
         </g>
 
         <g id="shelf-map__womens-room">
@@ -63,7 +63,7 @@
             <g id="shelf-map__row_4">
                 <g>
                     <text x="666" y="760">Rows 128-171</text>
-                    <use xlink:href="#shelf-map__corner-arrow-up" x="738" y="742"/>
+                    <use xlink:href="#shelf-map__corner-arrow-up" x="746" y="742"/>
                 </g>
                 <use xlink:href="#shelf-map__row-4-short-shelf-broken" x="669" y="732" data-down="128" data-up="129"/>
                 <use xlink:href="#shelf-map__row-4-short-shelf" x="669" y="711" data-down="130" data-up="131"/>
@@ -118,14 +118,14 @@
                 <use xlink:href="#shelf-map__full-shelf" x="518" y="283" data-down="77" data-up="76"/>
                 <g>
                     <text x="518" y="213">Rows 76-127</text>
-                    <use xlink:href="#shelf-map__corner-arrow-down" x="584" y="197"/>
+                    <use xlink:href="#shelf-map__corner-arrow-down" x="593" y="197"/>
                 </g>
             </g>
 
             <g id="shelf-map__row_2">
                 <g>
                     <text x="372" y="846">Rows 31-75</text>
-                    <use xlink:href="#shelf-map__corner-arrow-up" x="432" y="828"/>
+                    <use xlink:href="#shelf-map__corner-arrow-up" x="437" y="828"/>
                 </g>
                 <use xlink:href="#shelf-map__full-shelf" x="372" y="816" data-down="31" data-up="32"/>
                 <use xlink:href="#shelf-map__full-shelf" x="372" y="794" data-down="33" data-up="34"/>
@@ -170,7 +170,7 @@
                 <use xlink:href="#shelf-map__row-1-full-shelf" x="271" y="521" height="12" data-down="2" data-up="1"/>
                 <g>
                     <text x="271" y="515">Rows 1-30</text>
-                    <use xlink:href="#shelf-map__corner-arrow-down" x="325" y="500"/>
+                    <use xlink:href="#shelf-map__corner-arrow-down" x="330" y="500"/>
                 </g>
             </g>
         </g>
@@ -255,19 +255,28 @@
         <rect x="517" y="535" fill="#4D4D4D" width="45" height="39"/>
 
     </g>
+
+    <rect x="966" y="0" height="500" width="500" fill="#FFFFFF" />
+
     <defs>
         <style type="text/css">
   <![CDATA[
             text {
-                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-                font-size: 12px;
+                font-size: 15px;
                 fill: #607D8B;
+                font-weight: 400;
             }
 
                 text.label {
         font-family: Georgia, serif;
         font-size: 24px;
         fill: #FFFFFF;
+    }
+
+    text.bookId {
+            font-family: Georgia, serif;
+        font-size: 24px;
+        fill: #000000;
     }
 
 

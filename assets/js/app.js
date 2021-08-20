@@ -8,7 +8,79 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import '../css/app.css';
 
-// Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
-// import $ from 'jquery';
+import * as d3 from 'd3';
+import Shelf from "./Shelf";
 
-console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+
+window.addEventListener('load', function () {
+
+    // Make sure all the required parameters are included in the URL.
+    const params = new URLSearchParams(window.location.search);
+    if (requiredParamsMissing(params)) {
+        throw new Error('Must be called with proper query string parameters');
+    }
+
+    // Load the data for the requested item and place the indicator on the map.
+    loadShelfData(params.get('lib'), params.get('callno')).then(placeIndicator);
+
+});
+
+/**
+ * Are any necessary query string parameters missing?
+ *
+ * @param {URLSearchParams} params
+ * @return {boolean}
+ */
+function requiredParamsMissing(params) {
+    return !(params.has('lib') && params.has('callno'));
+}
+
+/**
+ * AJAX request for shelf data
+ *
+ * @param {string} library
+ * @param {string} callNumber
+ * @return {Promise<any>}
+ */
+async function loadShelfData(library, callNumber) {
+    const response = await fetch(`/shelf?lib=${library}&callno=${callNumber}`);
+    return await response.json();
+}
+
+/**
+ * Determine where the indicator should go and place it on the map
+ *
+ * @param data the data from the shelf data response
+ */
+function placeIndicator(data) {
+    const shelfCode = data.shelf.code;
+
+    // Check the shelf number against the data-up, data-down, data-left
+    // and data-right attributes of the shelves. If the number matches,
+    // paint the shelf.
+    ['up', 'down', 'left', 'right'].some(type => {
+        const match = d3.select(`use[data-${type}="${shelfCode}"]`);
+        if (!match.empty()) {
+            paintIndicator(match);
+            return true; // If we've matched, return true to break out of some() loop.
+        }
+    });
+}
+
+/**
+ * Actually paint the indicator
+ *
+ * @param matchingNode
+ */
+function paintIndicator(matchingNode) {
+
+    // Get the point to center the indicator at.
+    const shelf = new Shelf(matchingNode);
+    const indicatorCoords = shelf.findMarkerPoint(matchingNode);
+
+    // Draw the indicator.
+    d3.select("#map svg").append('use')
+        .attr('xlink:href', '#shelf-map__map-pin')
+        .attr('x', indicatorCoords.x)
+        .attr('y', indicatorCoords.y);
+}

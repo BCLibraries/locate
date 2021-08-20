@@ -7,7 +7,7 @@ use App\Entity\Map;
 class MapFileReader
 {
     /** @var string */
-    private $maps_dir;
+    private string $maps_dir;
 
     public function __construct(string $maps_dir = __DIR__ . '/../../../maps/')
     {
