@@ -8,32 +8,17 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import '../css/app.css';
 
+// Load spinner icon.
+import spinnerPath from '../images/loader-img.svg';
+
 import * as d3 from 'd3';
 import Shelf from "./Shelf";
 
-
 window.addEventListener('load', function () {
-
-    // Make sure all the required parameters are included in the URL.
-    const params = new URLSearchParams(window.location.search);
-    if (requiredParamsMissing(params)) {
-        throw new Error('Must be called with proper query string parameters');
-    }
-
     // Load the data for the requested item and place the indicator on the map.
-    loadShelfData(params.get('lib'), params.get('callno')).then(placeIndicator);
-
+    const [libraryCode, callNumber] = window.location.pathname.split('/').slice(-2);
+    loadShelfData(libraryCode, callNumber).then(placeIndicator);
 });
-
-/**
- * Are any necessary query string parameters missing?
- *
- * @param {URLSearchParams} params
- * @return {boolean}
- */
-function requiredParamsMissing(params) {
-    return !(params.has('lib') && params.has('callno'));
-}
 
 /**
  * AJAX request for shelf data
@@ -83,4 +68,52 @@ function paintIndicator(matchingNode) {
         .attr('xlink:href', '#shelf-map__map-pin')
         .attr('x', indicatorCoords.x)
         .attr('y', indicatorCoords.y);
+}
+
+window.addEventListener("load", function () {
+    function sendData() {
+        const XHR = new XMLHttpRequest();
+
+        // Bind the FormData object and the form element
+        const FD = new FormData(form);
+
+        // Define what happens on successful data submission
+        XHR.addEventListener("load", function (event) {
+            setModalMessage("Your request has been sent.");
+        });
+
+        // Define what happens in case of error
+        XHR.addEventListener("error", function (event) {
+            setModalMessage("There was an error processing your request.");
+        });
+
+        // Set up our request
+        XHR.open("POST", smsRoute);
+
+        // The data sent is what the user provided in the form
+        XHR.send(FD);
+
+        showLoadingSpinner();
+    }
+
+    // Access the form element...
+    const form = document.querySelector(".sms-form");
+
+    console.log(form);
+
+    // ...and take over its submit event.
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        sendData();
+    });
+});
+
+function setModalMessage(message) {
+    const modalBody = document.querySelector('.modal-body');
+    modalBody.innerHTML = `<div>${message}</div>`;
+}
+
+function showLoadingSpinner() {
+    setModalMessage(`<div class="sms-form__loading-container"><img class="sms-form__loading-spinner" src="${spinnerPath}" alt="Loading"></div>`);
 }

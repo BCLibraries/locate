@@ -29,3 +29,9 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    App\Service\SMSService\SMSClient:
+        arguments:
+            $clickatell_password: '%env(resolve:CLICKATELL_PASSWORD)%'
+            $clickatell_id: '%env(resolve:CLICKATELL_ID)%'
+

@@ -2,5 +2,50 @@
 
 {% block body %}
     <h1 class="header">{{ page_title }}</h1>
-    <div class="map" id="map">{{ svg | raw }}</div>
+    <div class="main-body">
+        <div class="map" id="map">{{ svg | raw }}</div>
+        <div class="control-panel">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Text directions to my phone
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Text directions to my phone</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form class="sms-form">
+                            <div class="modal-body sms-form_modal_body">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone number</label>
+                                    <div class="sms-form__input-row">
+                                        <input type="hidden" name="title" value="{{ title }}"/>
+                                        <input type="hidden" name="call_number" value="{{ call_number }}" />
+                                        <input type="hidden" name="library" value="{{ library_code }}" />
+
+                                        <input type="tel" id="phone" name="phone"
+                                               class="form-control sms-form__input"
+                                               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                               required>
+                                        <span class="sms-form__validity"></span>
+                                    </div>
+                                    <div class="sms-form__input-format">Ex. 617-555-1234</div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}

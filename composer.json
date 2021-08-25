@@ -15,6 +15,7 @@
         "symfony/dotenv": "5.3.*",
         "symfony/flex": "^1.9",
         "symfony/framework-bundle": "5.3.*",
+        "symfony/http-client": "5.3.*",
         "symfony/orm-pack": "^1.0",
         "symfony/test-pack": "^1.0",
         "symfony/validator": "5.3.*",

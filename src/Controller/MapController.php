@@ -14,31 +14,42 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class MapController extends AbstractController
 {
+    private ShelfRepository $shelf_repository;
+    private LCNormalizer $normalizer;
+    private MapFileReader $map_file_reader;
+
+    public function __construct(ShelfRepository $shelf_repository, LCNormalizer $normalizer, MapFileReader $map_file_reader)
+    {
+
+        $this->shelf_repository = $shelf_repository;
+        $this->normalizer = $normalizer;
+        $this->map_file_reader = $map_file_reader;
+    }
+
     /**
      * Index controller
      *
-     * @Route("/map", name="map_index")
+     * @Route("/map/{library_code}/{call_number}", name="map_index")
      *
-     * @param ShelfRepository $shelf_repository
-     * @param LCNormalizer $normalizer
-     * @param MapFileReader $map_file_reader
      * @param Request $request
      * @return Response
      * @throws BadShelfQueryException
      */
-    public function index(ShelfRepository $shelf_repository, LCNormalizer $normalizer, MapFileReader $map_file_reader, Request $request)
+    public function index(string $library_code, string $call_number, Request $request): Response
     {
-        $library_code = $request->query->get('lib');
-        $call_number = $request->query->get('callno');
+        $title = $request->query->get('title');
 
-        $page_title = "O'Neill Library - 5th Floor : Left of Main Stairway";
+        $normalized_call_number = $this->normalizer->normalize($call_number);
+        $shelf = $this->shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
+        $map = $shelf->getMap();
 
-        $svg = $this->getSVGString($normalizer, $shelf_repository, $map_file_reader, $library_code, $call_number);
+        $page_title = $this->buildPageTitle($map);
 
         return $this->render('map/index.html.twig', [
             'library_code' => $library_code,
             'call_number' => $call_number,
-            'svg' => $svg,
+            'title' => $title,
+            'svg' => $this->map_file_reader->readSvg($map)->asXML(),
             'page_title' => $page_title
         ]);
     }
@@ -80,5 +91,18 @@ class MapController extends AbstractController
         $normalized_call_number = $normalizer->normalize($call_number);
         $shelf = $shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
         return $map_file_reader->readSvg($shelf->getMap())->asXML();
+    }
+
+    /**
+     * @param \App\Entity\Map|null $map
+     * @return string
+     */
+    private function buildPageTitle(?\App\Entity\Map $map): string
+    {
+        $map_label = $map->getLabel();
+        $library_label = $map->getLibrary()->getLabel();
+
+        $page_title = "$library_label - $map_label";
+        return $page_title;
     }
 }
