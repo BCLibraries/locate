@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Migrations;
+namespace DoctrineMigrations;
 
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\Migrations\AbstractMigration;
@@ -14,7 +14,7 @@ final class Version20210223185309 extends AbstractMigration
 {
     public function getDescription() : string
     {
-        return '';
+        return 'Your description';
     }
 
     public function up(Schema $schema) : void
