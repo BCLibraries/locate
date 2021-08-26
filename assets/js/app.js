@@ -28,7 +28,7 @@ window.addEventListener('load', function () {
  * @return {Promise<any>}
  */
 async function loadShelfData(library, callNumber) {
-    const response = await fetch(`/shelf?lib=${library}&callno=${callNumber}`);
+    const response = await fetch(`${shelfRoute}?lib=${library}&callno=${callNumber}`);
     return await response.json();
 }
 
