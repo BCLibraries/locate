@@ -23,6 +23,7 @@
         "symfony/framework-bundle": "5.3.*",
         "symfony/http-client": "5.3.*",
         "symfony/phpunit-bridge": "^5.3",
+        "symfony/twig-bundle": "5.3.*",
         "symfony/validator": "5.3.*",
         "symfony/webpack-encore-bundle": "^1.12",
         "symfony/yaml": "5.3.*"
@@ -31,7 +32,6 @@
         "doctrine/doctrine-fixtures-bundle": "^3.4",
         "symfony/maker-bundle": "^1.14",
         "symfony/stopwatch": "^5.3",
-        "symfony/twig-bundle": "^5.3",
         "symfony/web-profiler-bundle": "^5.3"
     },
     "config": {

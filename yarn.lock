@@ -6302,6 +6302,10 @@ tty-browserify@0.0.0:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
+twig-bundle@symfony/twig-bundle:
+  version "0.0.0"
+  resolved "https://codeload.github.com/symfony/twig-bundle/tar.gz/345965b40c1847ebdbb2ab0eb98c71a98a5e167b"
+
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
   resolved "https://registry.yarnpkg.com/type-is/-/type-is-1.6.18.tgz#4e552cd05df09467dcbc4ef739de89f2cf37c131"
