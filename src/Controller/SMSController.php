@@ -22,6 +22,8 @@ class SMSController extends AbstractController
      */
     public function index(Request $request): Response
     {
+        $request->getSchemeAndHttpHost();
+
         $phone = $request->request->get('phone');
         $library = $request->request->get('library');
         $call_number = $request->request->get('call_number');

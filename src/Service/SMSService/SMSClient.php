@@ -100,7 +100,7 @@ class SMSClient
         $title = $this->truncateTitle($title);
         $location_string = $this->createLocationString($library, $call_number);
 
-        $url = $this->router->generate('map_index', ['library_code' => $library, 'call_number' => $call_number]);
+        $url = $this->createURL($library, $call_number, $title);
 
         return "Boston College Library book $call_number $title $location_string $url";
     }
@@ -123,5 +123,15 @@ class SMSClient
             $title = substr($title, 0, strrpos($title, ' ', $last)) . '…';
         }
         return $title;
+    }
+
+    private function createURL(string $library, string $call_number, string $title): string
+    {
+        $url_params = [
+            'library_code' => $library,
+            'call_number' => $call_number,
+            'title' => $title
+        ];
+        return $this->router->generate('map_index', $url_params, UrlGeneratorInterface::ABSOLUTE_URL);
     }
 }
