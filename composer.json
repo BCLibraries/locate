@@ -6,7 +6,6 @@
         "ext-ctype": "*",
         "ext-fileinfo": "*",
         "ext-iconv": "*",
-        "ext-posix": "*",
         "ext-simplexml": "*",
         "doctrine/annotations": "^1.10",
         "sensio/framework-extra-bundle": "^5.5",
