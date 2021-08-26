@@ -1,5 +1,7 @@
 body {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 1em;
+    background: #f2f2f2;
 }
 
 h1 {
@@ -9,21 +11,48 @@ h1 {
 }
 
 .map {
-    height: 800px;
-    width: 600px;
+    border: 1px dotted gray;
+    height: 500px;
+    width: 800px;
+    padding: 1em;
+    background: #fff;
 }
 
 .svg-components {
     display: none;
 }
 
-.main-body {
-    display: flex;
-}
-
 div {
     margin-bottom: 10px;
     position: relative;
+}
+
+.callno-map__call-number {
+    font-weight: 600;
+}
+
+.callno-map__library-name {
+    font-weight: 600;
+}
+
+.callno-map__library-location {
+    font-weight: 600;
+}
+
+.callno-map__shelf-num {
+    font-weight: 600;
+}
+
+.holder {
+    display: flex;
+}
+
+.holder p {
+    width: 80%;
+}
+
+.holder .control-panel {
+    width: 20%;
 }
 
 input[type="number"] {

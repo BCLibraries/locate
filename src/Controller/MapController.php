@@ -42,11 +42,15 @@ class MapController extends AbstractController
         $normalized_call_number = $this->normalizer->normalize($call_number);
         $shelf = $this->shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
         $map = $shelf->getMap();
+        $library = $map->getLibrary();
 
         $page_title = $this->buildPageTitle($map);
 
         return $this->render('map/index.html.twig', [
             'library_code' => $library_code,
+            'library_display' => $library->getLabel(),
+            'map_display' => $map->getLabel(),
+            'shelf_display' => $shelf->getCode(),
             'call_number' => $call_number,
             'title' => $title,
             'svg' => $this->map_file_reader->readSvg($map)->asXML(),

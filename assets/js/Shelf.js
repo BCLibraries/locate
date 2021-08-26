@@ -2,10 +2,10 @@ import * as d3 from 'd3';
 import Coordinates from "./Coordinates";
 
 const offsets = {
-    DOWN: new Coordinates(-26, -15),
-    UP: new Coordinates(-26, 15),
-    LEFT: new Coordinates(-15, -26),
-    RIGHT: new Coordinates(-15, -26)
+    DOWN: new Coordinates(-66, -15),
+    UP: new Coordinates(-66, 15),
+    LEFT: new Coordinates(-15, -66),
+    RIGHT: new Coordinates(-15, -66)
 };
 
 const orientations = {
@@ -66,13 +66,21 @@ class Shelf {
     }
 
     #findOffset(shelfNumber) {
-        if (this.#shelfElement.attr('data-up') === shelfNumber) {
-            return offsets.UP;
-        } else if (this.#shelfElement.attr('data-down') === shelfNumber) {
+        console.log(shelfNumber);
+        console.log('finding offset');
+        if (this.#shelfElement.attr('data-up') == shelfNumber) {
+            console.log('is up');
+            return offsets.UP;f
+        } else if (this.#shelfElement.attr('data-down') == shelfNumber) {
+            console.log('is down');
             return offsets.DOWN;
-        } else if (this.#shelfElement.attr('data-left') === shelfNumber) {
+        } else if (this.#shelfElement.attr('data-left') == shelfNumber) {
+            console.log('is left');
             return offsets.LEFT;
         } else {
+            console.log(this.#shelfElement.attr('data-up'));
+            console.log('is right');
+            console.log(this.#shelfElement);
             return offsets.RIGHT;
         }
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="100 200 900 800" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="200 80 1500 800" xml:space="preserve">
 
     <g id="shelf-map__visible-map">
         <polygon id="shelf-map__bare-floor" fill="none" points="1026,572 846,572 846,287 1025,287 1025,183 1018,183 1018,135 963,135 963,168 847,168 847,183
@@ -256,8 +256,6 @@
 
     </g>
 
-    <rect x="966" y="0" height="500" width="500" fill="#FFFFFF" />
-
     <defs>
         <style type="text/css">
   <![CDATA[
@@ -434,7 +432,7 @@
         </symbol>
 
         <symbol id="shelf-map__map-pin" data-width="35" data-height="52">
-            <svg width="52" height="52" viewBox="0 0 24 24">
+            <svg width="84" height="84" viewBox="0 0 24 24">
                 <path fill="yellow" stroke="black" d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
             </svg>
         </symbol>

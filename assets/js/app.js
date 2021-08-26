@@ -46,7 +46,7 @@ function placeIndicator(data) {
     ['up', 'down', 'left', 'right'].some(type => {
         const match = d3.select(`use[data-${type}="${shelfCode}"]`);
         if (!match.empty()) {
-            paintIndicator(match);
+            paintIndicator(match, shelfCode);
             return true; // If we've matched, return true to break out of some() loop.
         }
     });
@@ -57,11 +57,11 @@ function placeIndicator(data) {
  *
  * @param matchingNode
  */
-function paintIndicator(matchingNode) {
+function paintIndicator(matchingNode, shelfCode) {
 
     // Get the point to center the indicator at.
     const shelf = new Shelf(matchingNode);
-    const indicatorCoords = shelf.findMarkerPoint(matchingNode);
+    const indicatorCoords = shelf.findMarkerPoint(shelfCode);
 
     // Draw the indicator.
     d3.select("#map svg").append('use')
