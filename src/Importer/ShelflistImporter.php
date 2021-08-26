@@ -12,13 +12,13 @@ use Doctrine\ORM\EntityManagerInterface;
 class ShelflistImporter
 {
     /** @var ShelflistFileValidator */
-    private $file_validator;
+    private ShelflistFileValidator $file_validator;
 
     /** @var EntityManagerInterface */
-    private $em;
+    private EntityManagerInterface $em;
 
     /** @var LCNormalizer */
-    private $lc_normalizer;
+    private LCNormalizer $lc_normalizer;
 
     public function __construct(ShelflistFileValidator $file_validator, EntityManagerInterface $em, LCNormalizer $lc_normalizer)
     {
@@ -34,11 +34,11 @@ class ShelflistImporter
 
         $handle = fopen($shelflist, 'rb');
 
-        while (($data = fgetcsv($handle, 1000, "\t")) !== false) {
-
+        while (($data = fgetcsv($handle, 1000)) !== false) {
             $code = $data[0];
             $start_call_no = $data[1];
             $end_call_no = $data[2];
+
             $normalized_start_callno = $this->lc_normalizer->normalize($start_call_no);
             $normalized_end_callno = $this->lc_normalizer->normalize($end_call_no);
 

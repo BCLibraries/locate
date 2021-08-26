@@ -79,7 +79,7 @@ class LocateImportShelflistCommand extends Command
         $shelflist = $input->getArgument('shelflist');
         $mapfile = $input->getOption('mapfile');
 
-        $map = $this->maps->findOneBy(['code' => $map_code]);
+        $map = $this->maps->find($map_code);
 
         if ($map === null) {
             throw new BadCommandArgumentException("Couldn't find map $map_code");
