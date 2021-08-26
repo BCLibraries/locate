@@ -120,7 +120,7 @@ class SMSClient
     {
         if (strlen($title) > $max_chars) {
             $last = ($max_chars - 1) - strlen($title);
-            $title = substr($title, 0, strrpos($title, ' ', $last)) . '…';
+            $title = substr($title, 0, strrpos($title, ' ', $last)) . '...';
         }
         return $title;
     }
