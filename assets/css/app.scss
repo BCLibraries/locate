@@ -1,0 +1,115 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 1em;
+  background: #f2f2f2;
+}
+
+h1 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.map {
+  border: 1px dotted gray;
+  padding: 1em;
+  background: #fff;
+  width: 400px;
+  height: 500px;
+}
+
+@include media-breakpoint-up(lg) {
+  .map {
+    height: 500px;
+    width: 800px;
+  }
+}
+
+.svg-components {
+  display: none;
+}
+
+div {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.callno-map__call-number {
+  font-weight: 600;
+}
+
+.callno-map__library-name {
+  font-weight: 600;
+}
+
+.callno-map__library-location {
+  font-weight: 600;
+}
+
+.callno-map__shelf-num {
+  font-weight: 600;
+}
+
+.holder {
+  display: flex;
+}
+
+.holder p {
+  @include font-size(1rem);
+}
+
+.holder .control-panel {
+  width: 20%;
+}
+
+input[type="number"] {
+  width: 100px;
+  display: inline-block;
+}
+
+input + span {
+  padding-right: 30px;
+}
+
+.sms-form__input-row {
+  display: flex;
+}
+
+.sms-form__input {
+  display: inline-block;
+}
+
+.sms-form__validity {
+  padding-left: 12px;
+  padding-top: 6px;
+  display: inline-block;
+}
+
+input:invalid + span:after {
+  position: absolute;
+  content: '✖';
+  padding-left: 5px;
+  color: #8b0000;
+}
+
+input:valid + span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+  color: #009000;
+}
+
+.sms-form__input-format {
+  color: #666;
+  font-size: 13px;
+}
+
+.sms-form__loading-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sms-form__loading-spinner {
+  width: 100px;
+}

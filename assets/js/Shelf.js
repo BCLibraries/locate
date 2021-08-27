@@ -66,21 +66,13 @@ class Shelf {
     }
 
     #findOffset(shelfNumber) {
-        console.log(shelfNumber);
-        console.log('finding offset');
         if (this.#shelfElement.attr('data-up') == shelfNumber) {
-            console.log('is up');
-            return offsets.UP;f
+            return offsets.UP;
         } else if (this.#shelfElement.attr('data-down') == shelfNumber) {
-            console.log('is down');
             return offsets.DOWN;
         } else if (this.#shelfElement.attr('data-left') == shelfNumber) {
-            console.log('is left');
             return offsets.LEFT;
         } else {
-            console.log(this.#shelfElement.attr('data-up'));
-            console.log('is right');
-            console.log(this.#shelfElement);
             return offsets.RIGHT;
         }
     }

@@ -5,8 +5,8 @@
  * (and its CSS file) in your base layout (base.html.twig).
  */
 
-// any CSS you import will output into a single css file (app.css in this case)
-import '../css/app.css';
+// any CSS you import will output into a single css file (app.scss in this case)
+import '../css/app.scss';
 
 // Load spinner icon.
 import spinnerPath from '../images/loader-img.svg';
@@ -14,10 +14,14 @@ import spinnerPath from '../images/loader-img.svg';
 import * as d3 from 'd3';
 import Shelf from "./Shelf";
 
+let originalMapViewBox = '';
+
 window.addEventListener('load', function () {
     // Load the data for the requested item and place the indicator on the map.
     const [libraryCode, callNumber] = window.location.pathname.split('/').slice(-2);
     loadShelfData(libraryCode, callNumber).then(placeIndicator);
+    originalMapViewBox = d3.select(".map > svg").attr('viewBox');
+    resizeMap();
 });
 
 /**
@@ -99,8 +103,6 @@ window.addEventListener("load", function () {
     // Access the form element...
     const form = document.querySelector(".sms-form");
 
-    console.log(form);
-
     // ...and take over its submit event.
     form.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -117,3 +119,14 @@ function setModalMessage(message) {
 function showLoadingSpinner() {
     setModalMessage(`<div class="sms-form__loading-container"><img class="sms-form__loading-spinner" src="${spinnerPath}" alt="Loading"></div>`);
 }
+
+function resizeMap() {
+    const mapBox = document.querySelector('.map');
+    if (mapBox.offsetWidth < mapBox.offsetHeight) {
+        d3.select(".map > svg").attr('viewBox', '200 80 800 900');
+    } else {
+        d3.select(".map > svg").attr('viewBox', originalMapViewBox);
+    }
+}
+
+window.addEventListener("resize", resizeMap);
