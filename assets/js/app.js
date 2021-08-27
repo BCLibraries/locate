@@ -14,6 +14,8 @@ import spinnerPath from '../images/loader-img.svg';
 import * as d3 from 'd3';
 import Shelf from "./Shelf";
 
+require('bootstrap');
+
 let horizontalViewBox = '';
 
 window.addEventListener('load', function () {
@@ -122,13 +124,10 @@ function showLoadingSpinner() {
 
 function resizeMap() {
     const mapBox = document.querySelector('.map');
-    if (window.innerWidth < window.innerHeight) {
+    if (window.innerWidth < 992) {
         const vertViewBox = document.querySelector(".map > svg").getAttribute('data-viewbox');
-        console.log(vertViewBox);
         d3.select(".map > svg").attr('viewBox', vertViewBox);
-        console.log('set it');
     } else {
-        console.log (window.offsetWidth);
         d3.select(".map > svg").attr('viewBox', horizontalViewBox);
     }
 }

@@ -16,7 +16,7 @@ h1 {
   border: 1px dotted gray;
   background: #fff;
   width: 100%;
-  padding: 1em 1em 100%;
+  padding: 1em 1em;
 }
 
 @include media-breakpoint-up(lg) {
