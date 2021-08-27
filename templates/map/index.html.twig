@@ -2,7 +2,7 @@
 
 {% block body %}
     <div class="row">
-        <h1 class="header">{{ title }}</h1>
+        <h3 class="header">{{ title }}</h3>
         <div class="holder">
             <p class="col-md-9">The item with call number
                 <span class="callno-map__call-number">{{ call_number }}</span>
@@ -14,7 +14,14 @@
     </div>
 
     <div class="row">
+
+    </div>
+
+    <div class="row">
         <div class="map-wrapper">
+            <h2 class="col-md-12">
+                {{ library_display }} {{ map_display }}
+            </h2>
             <div class="map col-md-12 svg-container" id="map">{{ svg | raw }}</div>
         </div>
     </div>

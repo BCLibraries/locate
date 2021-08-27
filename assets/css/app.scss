@@ -13,10 +13,7 @@ h1 {
 }
 
 .map {
-  border: 1px dotted gray;
-  background: #fff;
   width: 100%;
-  padding: 1em 1em;
 }
 
 @include media-breakpoint-up(lg) {
@@ -25,6 +22,13 @@ h1 {
     height: 500px;
     width: 800px;
   }
+}
+
+.map-wrapper {
+  background: #fff;
+  border: 1px dotted gray;
+  padding: 1em;
+  max-width: 840px;
 }
 
 .svg-components {
