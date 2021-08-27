@@ -4,6 +4,7 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 1em;
   background: #f2f2f2;
+  font-size: 18px;
 }
 
 h1 {
@@ -13,14 +14,14 @@ h1 {
 
 .map {
   border: 1px dotted gray;
-  padding: 1em;
   background: #fff;
-  width: 400px;
-  height: 500px;
+  width: 100%;
+  padding: 1em 1em 100%;
 }
 
 @include media-breakpoint-up(lg) {
   .map {
+    padding-bottom: 1em;
     height: 500px;
     width: 800px;
   }
@@ -51,16 +52,8 @@ div {
   font-weight: 600;
 }
 
-.holder {
-  display: flex;
-}
-
-.holder p {
+p {
   @include font-size(1rem);
-}
-
-.holder .control-panel {
-  width: 20%;
 }
 
 input[type="number"] {
@@ -112,4 +105,18 @@ input:valid + span:after {
 
 .sms-form__loading-spinner {
   width: 100px;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+}
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em;
 }

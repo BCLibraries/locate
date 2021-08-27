@@ -14,13 +14,13 @@ import spinnerPath from '../images/loader-img.svg';
 import * as d3 from 'd3';
 import Shelf from "./Shelf";
 
-let originalMapViewBox = '';
+let horizontalViewBox = '';
 
 window.addEventListener('load', function () {
     // Load the data for the requested item and place the indicator on the map.
     const [libraryCode, callNumber] = window.location.pathname.split('/').slice(-2);
     loadShelfData(libraryCode, callNumber).then(placeIndicator);
-    originalMapViewBox = d3.select(".map > svg").attr('viewBox');
+    horizontalViewBox = d3.select(".map > svg").attr('viewBox');
     resizeMap();
 });
 
@@ -122,10 +122,14 @@ function showLoadingSpinner() {
 
 function resizeMap() {
     const mapBox = document.querySelector('.map');
-    if (mapBox.offsetWidth < mapBox.offsetHeight) {
-        d3.select(".map > svg").attr('viewBox', '200 80 800 900');
+    if (window.innerWidth < window.innerHeight) {
+        const vertViewBox = document.querySelector(".map > svg").getAttribute('data-viewbox');
+        console.log(vertViewBox);
+        d3.select(".map > svg").attr('viewBox', vertViewBox);
+        console.log('set it');
     } else {
-        d3.select(".map > svg").attr('viewBox', originalMapViewBox);
+        console.log (window.offsetWidth);
+        d3.select(".map > svg").attr('viewBox', horizontalViewBox);
     }
 }
 
