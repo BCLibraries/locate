@@ -96,11 +96,11 @@ class SMSClient
 
     private function createMessage(string $library, string $call_number, string $title): string
     {
-        $title = $this->cleanTitle($title);
-        $title = $this->truncateTitle($title);
+        $clean_title = $this->cleanTitle($title);
+        $clean_title = $this->truncateTitle($clean_title);
         $location_string = $this->createLocationString($library, $call_number);
 
-        $url = $this->createURL($library, $call_number, $title);
+        $url = $this->createURL($library, $call_number, $clean_title);
 
         return "Boston College Library book $call_number $title $location_string $url";
     }

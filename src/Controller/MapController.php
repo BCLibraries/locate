@@ -45,7 +45,7 @@ class MapController extends AbstractController
             $params = [
                 'callnum' => $call_number,
                 'location_code' => $request->query->get('location_code'),
-                'collection' => $request->query->get('location_name'),
+                'collection' => $request->query->get('collection'),
                 'sublibrary' => $library_code,
                 'title' => $title,
                 'source' => 'Alma'
