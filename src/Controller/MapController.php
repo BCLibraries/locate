@@ -38,6 +38,7 @@ class MapController extends AbstractController
     public function index(string $library_code, string $call_number, Request $request): Response
     {
         $library_code = strtolower($library_code);
+        $call_number = str_replace('+', ' ', $call_number);
         $title = $request->query->get('title');
 
         // Redirect anything that isn't in O'Neill to the old Locate.
