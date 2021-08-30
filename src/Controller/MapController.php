@@ -37,7 +37,22 @@ class MapController extends AbstractController
      */
     public function index(string $library_code, string $call_number, Request $request): Response
     {
+        $library_code = strtolower($library_code);
         $title = $request->query->get('title');
+
+        // Redirect anything that isn't in O'Neill to the old Locate.
+        if ($library_code !== 'onl') {
+            $params = [
+                'callnum' => $call_number,
+                'location_code' => $request->query->get('location_code'),
+                'collection' => $request->query->get('location_name'),
+                'sublibrary' => $library_code,
+                'title' => $title,
+                'source' => 'Alma'
+            ];
+            return $this->redirect("http://arc.bc.edu:8080/FloorMap/SayHi.do?" . http_build_query($params));
+        }
+
 
         $normalized_call_number = $this->normalizer->normalize($call_number);
         $shelf = $this->shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
