@@ -2,10 +2,10 @@ import * as d3 from 'd3';
 import Coordinates from "./Coordinates";
 
 const offsets = {
-    DOWN: new Coordinates(-66, -15),
-    UP: new Coordinates(-66, 15),
-    LEFT: new Coordinates(-15, -66),
-    RIGHT: new Coordinates(-15, -66)
+    DOWN: new Coordinates(-33, -66),
+    UP: new Coordinates(-33, -79),
+    LEFT: new Coordinates(-15, -33),
+    RIGHT: new Coordinates(-15, -33)
 };
 
 const orientations = {
