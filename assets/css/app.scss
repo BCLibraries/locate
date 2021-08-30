@@ -56,6 +56,20 @@ div {
   font-weight: 600;
 }
 
+.callno-map__sms-icon {
+  margin-right: .25em
+}
+
+.callno-map__control-panel {
+  max-width: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.callno-map__feedback-link {
+
+}
+
 p {
   @include font-size(1rem);
 }
