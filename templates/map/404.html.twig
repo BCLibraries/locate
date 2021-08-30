@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <h3 class="header">Could not locate: {{ title }}</h3>
+        <div class="holder">
+            <p class="col-md-9">We couldn't locate the item with call number
+                <span class="callno-map__call-number">{{ call_number }}</span>. This doesn't mean the item
+                is not on our shelves, just that it isn't on our map. We apologize for the inconvenience.
+            </p>
+        </div>
+
+        <div class="callno-map__control-panel">
+            <a href="https://library.bc.edu/feedback/" class="callno-map__feedback-link">Feedback</a>
+        </div>
+    </div>
+{% endblock %}

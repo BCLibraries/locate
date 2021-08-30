@@ -56,6 +56,14 @@ class MapController extends AbstractController
 
         $normalized_call_number = $this->normalizer->normalize($call_number);
         $shelf = $this->shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
+
+        if (null === $shelf) {
+            return $this->render('map/404.html.twig', [
+                'call_number' => $call_number,
+                'title' => $title,
+            ])->setStatusCode(404);
+        }
+
         $map = $shelf->getMap();
         $library = $map->getLibrary();
 

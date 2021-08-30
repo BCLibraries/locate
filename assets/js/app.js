@@ -21,9 +21,14 @@ let horizontalViewBox = '';
 window.addEventListener('load', function () {
     // Load the data for the requested item and place the indicator on the map.
     const [libraryCode, callNumber] = window.location.pathname.split('/').slice(-2);
-    loadShelfData(libraryCode, callNumber).then(placeIndicator);
-    horizontalViewBox = d3.select(".map > svg").attr('viewBox');
-    resizeMap();
+    const mapExists = document.querySelector(".map > svg");
+
+    // If we have all the parts we need, fetch the shelf and add it to the map.
+    if (libraryCode && callNumber && mapExists) {
+        loadShelfData(libraryCode, callNumber).then(placeIndicator);
+        horizontalViewBox = d3.select(".map > svg").attr('viewBox');
+        resizeMap();
+    }
 });
 
 /**
@@ -122,8 +127,10 @@ function showLoadingSpinner() {
     setModalMessage(`<div class="sms-form__loading-container"><img class="sms-form__loading-spinner" src="${spinnerPath}" alt="Loading"></div>`);
 }
 
+// When the window resizes we need to focus the SVG to either the left or right depenind on
+// where the relevant shelf is. We do the refocusing by replacing the regular viewbox
+// attribute of the SVG with its data-viewbox.
 function resizeMap() {
-    const mapBox = document.querySelector('.map');
     if (window.innerWidth < 992) {
         const vertViewBox = document.querySelector(".map > svg").getAttribute('data-viewbox');
         d3.select(".map > svg").attr('viewBox', vertViewBox);
