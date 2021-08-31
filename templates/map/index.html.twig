@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Locate {{ title }} {{ call_number}} - Boston College Libraries{% endblock %}
+
 {% block body %}
     <div class="row">
         <h3 class="header">{{ title }}</h3>
@@ -8,7 +10,7 @@
                 <span class="callno-map__call-number">{{ call_number }}</span>
                 is located in <span class="callno-map__library-name">{{ library_display }}</span>,
                 <span class="callno-map__library-location">{{ map_display }}</span>
-                on shelf <span class="callno-map__shelf-num">{{ shelf_display }}.</span>
+                on row <span class="callno-map__shelf-num">{{ shelf_display }}.</span>
             </p>
         </div>
 

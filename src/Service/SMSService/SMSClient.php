@@ -102,7 +102,7 @@ class SMSClient
 
         $url = $this->createURL($library, $call_number, $clean_title);
 
-        return "Boston College Library book $call_number $title $location_string $url";
+        return "Boston College Library book $call_number $title is in $location_string $url";
     }
 
     private function createLocationString(string $library, string $call_number)
@@ -113,7 +113,7 @@ class SMSClient
 
         // Build the string.
         $map = $shelf->getMap();
-        return $map->getLabel() . " " . $map->getLibrary()->getLabel();
+        return $map->getLibrary()->getLabel() . ", " . $map->getLabel() . ", Row " . $shelf->getCode();
     }
 
     private function truncateTitle($title, $max_chars = 20)
