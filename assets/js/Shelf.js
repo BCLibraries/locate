@@ -5,7 +5,7 @@ const offsets = {
     DOWN: new Coordinates(-33, -66),
     UP: new Coordinates(-33, -79),
     LEFT: new Coordinates(-15, -33),
-    RIGHT: new Coordinates(-15, -33)
+    RIGHT: new Coordinates(-21, -73)
 };
 
 const orientations = {
