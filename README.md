@@ -12,9 +12,11 @@ cd locate
 composer install
 ```
 
+Install the [`symfony` CLI tool](https://symfony.com/download) to control the server.
+
 ## Running locally
 
-Install the [`symfony` CLI tool](https://symfony.com/download) and open the local server:
+Launch the server:
 
 ```bash
 symfony server:start -d

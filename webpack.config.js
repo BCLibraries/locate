@@ -61,6 +61,10 @@ Encore
         delete options.client;
     })
 
+if (Encore.isDev()) {
+    Encore.setPublicPath('/build')
+}
+
 // uncomment if you use TypeScript
 //.enableTypeScriptLoader()
 
