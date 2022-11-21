@@ -56,7 +56,7 @@
             <rect x="301" y="417" fill="#C69C6D" width="63" height="27"/>
             <rect x="628" y="246" fill="#C69C6D" width="49" height="122"/>
             <rect x="687" y="246" fill="#C69C6D" width="49" height="122"/>
-            <rect x="491" y="250" fill="#C69C6D" width="116" height="44"/>
+            <rect x="498" y="250" fill="#C69C6D" width="116" height="44"/>
             <rect x="514" y="304" fill="#C69C6D" width="93" height="44"/>
             <rect x="514" y="356" fill="#C69C6D" width="93" height="44"/>
             <rect x="746" y="296" fill="#C69C6D" width="48" height="45"/>
@@ -913,47 +913,47 @@
         <path fill="#1A1A1A" d="M559.618,321.596h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V321.596z M542.118,309.096v10
 				h15v-10H542.118z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M536.618,321.596h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V321.596z M519.118,309.096v10
 				h15v-10H519.118z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M604.618,289.846h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V289.846z M587.118,277.346v10
 				h15v-10H587.118z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M582.118,289.846h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V289.846z M564.618,277.346v10
 				h15v-10H564.618z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M559.618,289.846h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V289.846z M542.118,277.346v10
 				h15v-10H542.118z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M536.618,289.846h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V289.846z M519.118,277.346v10
 				h15v-10H519.118z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M513.118,289.846h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V289.846z M495.618,277.346v10
 				h15v-10H495.618z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M604.618,268.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V268.096z M587.118,255.596v10
 				h15v-10H587.118z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M582.118,268.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V268.096z M564.618,255.596v10
 				h15v-10H564.618z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M559.618,268.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V268.096z M542.118,255.596v10
 				h15v-10H542.118z"/>
     </g>
-        <g>
+        <g  transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M536.618,268.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V268.096z M519.118,255.596v10
 				h15v-10H519.118z"/>
     </g>
-        <g>
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M513.118,268.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V268.096z M495.618,255.596v10
 				h15v-10H495.618z"/>
     </g>
