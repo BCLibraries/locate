@@ -66,6 +66,7 @@ class Shelf {
     }
 
     #findOffset(shelfNumber) {
+        shelfNumber = shelfNumber.replace(/[A-Z]/,'');
         if (this.#shelfElement.attr('data-up') == shelfNumber) {
             return offsets.UP;
         } else if (this.#shelfElement.attr('data-down') == shelfNumber) {
