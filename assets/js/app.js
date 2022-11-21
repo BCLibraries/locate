@@ -49,8 +49,7 @@ async function loadShelfData(library, callNumber) {
  * @param data the data from the shelf data response
  */
 function placeIndicator(data) {
-    const shelfCode = data.shelf.code;
-
+    const shelfCode = data.shelf.code.replace(/[A-Z]/,'');
     // Check the shelf number against the data-up, data-down, data-left
     // and data-right attributes of the shelves. If the number matches,
     // paint the shelf.
