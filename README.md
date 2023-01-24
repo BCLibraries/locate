@@ -31,12 +31,19 @@ mysql -u locate -p locate < locate-dev-data.sql
 ```
 ### Installing the application
 
-Use the package manager [composer](https://getcomposer.org/) to install Locate.
+Use the package manager [composer](https://getcomposer.org/) to install the Locate server:
 
 ```bash
 git clone https://github.com/BCLibraries/locate.git
 cd locate
 composer install 
+```
+
+Install the required JavaScript with yarn and build the scripts:
+
+```shell
+yarn install
+yarn encore dev
 ```
 
 Install the [`symfony` CLI tool](https://symfony.com/download) to control the server.
