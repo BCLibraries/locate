@@ -54,13 +54,13 @@
                                 <input type="hidden" name="call_number" value="{{ call_number }}"/>
                                 <input type="hidden" name="library" value="{{ library_code }}"/>
 
-                                <input type="tel" id="phone" name="phone"
+                                <input type="tel" id="phone" name="phone" autocomplete="tel"
                                        class="form-control sms-form__input"
-                                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                       pattern="(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]‌​)\s*)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)([2-9]1[02-9]‌​|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})\s*$"
                                        required>
                                 <span class="sms-form__validity"></span>
                             </div>
-                            <div class="sms-form__input-format">Ex. 617-555-1234</div>
+                            <div class="sms-form__input-format">Please enter a US phone number. Ex. 617-555-1234</div>
                         </div>
 
                         <div class="modal-footer">
