@@ -13,6 +13,7 @@ import spinnerPath from '../images/loader-img.svg';
 
 import * as d3 from 'd3';
 import Shelf from "./Shelf";
+import shelf from "./Shelf";
 
 require('bootstrap');
 
@@ -49,15 +50,21 @@ async function loadShelfData(library, callNumber) {
  * @param data the data from the shelf data response
  */
 function placeIndicator(data) {
-    const shelfCode = data.shelf.code.replace(/[A-Z]/,'');
+    const shelfID = data.shelf.id.toString();
     // Check the shelf number against the data-up, data-down, data-left
     // and data-right attributes of the shelves. If the number matches,
     // paint the shelf.
     ['up', 'down', 'left', 'right'].some(type => {
-        const match = d3.select(`use[data-${type}="${shelfCode}"]`);
+        console.log(`Looking for ${shelfID}`);
+        console.log(`use[data-${type}="${shelfID}"]`);
+        const match = d3.select(`use[data-${type}="${shelfID}"]`);
+        console.log(match);
         if (!match.empty()) {
-            paintIndicator(match, shelfCode);
+            console.log('will paint indicator');
+            paintIndicator(match, shelfID);
             return true; // If we've matched, return true to break out of some() loop.
+        } else {
+            console.log('match is empty');
         }
     });
 }
@@ -67,11 +74,13 @@ function placeIndicator(data) {
  *
  * @param matchingNode
  */
-function paintIndicator(matchingNode, shelfCode) {
+function paintIndicator(matchingNode, shelfId) {
+
+    console.log(`painting indicator for ${shelfId}`);
 
     // Get the point to center the indicator at.
     const shelf = new Shelf(matchingNode);
-    const indicatorCoords = shelf.findMarkerPoint(shelfCode);
+    const indicatorCoords = shelf.findMarkerPoint(shelfId);
 
     // Draw the indicator.
     d3.select("#map svg").append('use')

@@ -60,12 +60,14 @@ class Shelf {
     }
 
     findMarkerPoint(shelfNumber) {
+        console.log(`finding marker point for ${shelfNumber}`);
         const offset = this.#findOffset(shelfNumber);
         const centerPoint = this.centerPoint;
         return centerPoint.addOffset(offset);
     }
 
     #findOffset(shelfNumber) {
+        console.log(`finding offset for ${shelfNumber}`);
         shelfNumber = shelfNumber.replace(/[A-Z]/,'');
         if (this.#shelfElement.attr('data-up') == shelfNumber) {
             return offsets.UP;

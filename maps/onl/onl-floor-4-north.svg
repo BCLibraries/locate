@@ -147,104 +147,104 @@
             <use xlink:href="#shelf-map__row-5-full-shelf" x="997" y="213" data-up="160" data-down="161"/>
 
             <use xlink:href="#shelf-map__row-4-full-shelf" x="835" y="234" data-up="159" data-down="158"/>
-            <use xlink:href="#shelf-map__row-4-short-shelf" x="853" y="254" data-up="157" data-down="156"/>
-            <use xlink:href="#shelf-map__row-4-full-shelf" x="835" y="274" data-up="155" data-down="154"/>
+            <use xlink:href="#shelf-map__row-4-short-shelf" x="853" y="254" data-up="263" data-down="262"/>
+            <use xlink:href="#shelf-map__row-4-full-shelf" x="835" y="274" data-up="261" data-down="260"/>
 
 
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="529" data-up="152" data-down="153"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="509" data-up="150" data-down="151"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="529" data-up="258" data-down="259"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="509" data-up="256" data-down="257"/>
 
-            <use xlink:href="#shelf-map__row-3-broken-shelf" x="675" y="490" data-up="148" data-down="149"/>
+            <use xlink:href="#shelf-map__row-3-broken-shelf" x="675" y="490" data-up="254" data-down="255"/>
 
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="471" data-up="146" data-down="147"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="451" data-up="144" data-down="145"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="432" data-up="142" data-down="143"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="412" data-up="140" data-down="141"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="393" data-up="138" data-down="139"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="471" data-up="252" data-down="253"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="451" data-up="250" data-down="251"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="432" data-up="248" data-down="249"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="412" data-up="246" data-down="247"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="393" data-up="244" data-down="245"/>
 
-            <use xlink:href="#shelf-map__row-3-broken-shelf" x="675" y="373" data-up="136" data-down="137"/>
+            <use xlink:href="#shelf-map__row-3-broken-shelf" x="675" y="373" data-up="242" data-down="243"/>
 
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="353" data-up="134" data-down="135"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="334" data-up="132" data-down="133"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="314" data-up="130" data-down="131"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="295" data-up="128" data-down="129"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="276" data-up="126" data-down="127"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="353" data-up="240" data-down="241"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="334" data-up="238" data-down="239"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="314" data-up="236" data-down="237"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="295" data-up="234" data-down="235"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="276" data-up="232" data-down="233"/>
 
-            <use xlink:href="#shelf-map__row-3-broken-shelf" x="675" y="256" data-up="124" data-down="125"/>
+            <use xlink:href="#shelf-map__row-3-broken-shelf" x="675" y="256" data-up="230" data-down="231"/>
 
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="237" data-up="122" data-down="123"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="217" data-up="120" data-down="121"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="198" data-up="118" data-down="119"/>
-            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="178" data-up="116" data-down="117"/>
-
-
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="178" data-up="115" data-down="114"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="198" data-up="113" data-down="112"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="217" data-up="111" data-down="110"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="237" data-up="109" data-down="108"/>
-
-            <use xlink:href="#shelf-map__row-2-broken-shelf" x="520" y="256" data-up="107" data-down="106"/>
-
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="276" data-up="105" data-down="104"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="295" data-up="103" data-down="102"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="314" data-up="101" data-down="100"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="334" data-up="99" data-down="98"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="353" data-up="97" data-down="96"/>
-
-            <use xlink:href="#shelf-map__row-2-broken-shelf" x="520" y="373" data-up="95" data-down="94"/>
-
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="393" data-up="93" data-down="92"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="412" data-up="91" data-down="90"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="432" data-up="89" data-down="88"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="451" data-up="87" data-down="86"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="471" data-up="85" data-down="84"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="509" data-up="83" data-down="82"/>
-            <use xlink:href="#shelf-map__row-2-broken-shelf" x="520" y="490" data-up="81" data-down="80"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="529" data-up="79" data-down="78"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="550" data-up="77" data-down="76"/>
-            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="570" data-up="75" data-down="74"/>
-
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="520" y="614" data-up="73" data-down="72"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="632" data-up="71" data-down="70"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="653" data-up="69" data-down="68"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="671" data-up="67" data-down="66"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="690" data-up="65" data-down="64"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="709" data-up="63" data-down="62"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="741" data-up="61" data-down="60"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="760" data-up="59" data-down="58"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="781" data-up="57" data-down="56"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="800" data-up="55" data-down="54"/>
-            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="818" data-up="53" data-down="52"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="237" data-up="228" data-down="229"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="217" data-up="226" data-down="227"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="198" data-up="224" data-down="225"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="675" y="178" data-up="222" data-down="223"/>
 
 
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="818" data-up="50" data-down="51"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="800" data-up="48" data-down="47"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="781" data-up="46" data-down="45"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="760" data-up="44" data-down="43"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="673" data-up="42" data-down="41"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="654" data-up="40" data-down="39"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="633" data-up="38" data-down="37"/>
-            <use xlink:href="#shelf-map__row-1-broken-shelf-2" x="340" y="615" data-up="36" data-down="35"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="178" data-up="221" data-down="220"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="198" data-up="219" data-down="218"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="217" data-up="217" data-down="216"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="237" data-up="215" data-down="214"/>
 
-            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="570" data-up="34" data-down="33"/>
-            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="551" data-up="32" data-down="31"/>
-            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="529" data-up="30" data-down="29"/>
-            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="510" data-up="28" data-down="27"/>
+            <use xlink:href="#shelf-map__row-2-broken-shelf" x="520" y="256" data-up="213" data-down="212"/>
+
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="276" data-up="211" data-down="210"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="295" data-up="209" data-down="208"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="314" data-up="207" data-down="206"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="334" data-up="205" data-down="204"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="353" data-up="203" data-down="202"/>
+
+            <use xlink:href="#shelf-map__row-2-broken-shelf" x="520" y="373" data-up="201" data-down="200"/>
+
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="393" data-up="199" data-down="198"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="412" data-up="197" data-down="196"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="432" data-up="195" data-down="194"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="451" data-up="193" data-down="192"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="471" data-up="191" data-down="190"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="509" data-up="189" data-down="188"/>
+            <use xlink:href="#shelf-map__row-2-broken-shelf" x="520" y="490" data-up="187" data-down="186"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="529" data-up="185" data-down="184"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="550" data-up="183" data-down="182"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="520" y="570" data-up="181" data-down="180"/>
+
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="520" y="614" data-up="179" data-down="178"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="632" data-up="177" data-down="176"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="653" data-up="175" data-down="174"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="671" data-up="173" data-down="172"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="690" data-up="171" data-down="170"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="709" data-up="169" data-down="168"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="741" data-up="167" data-down="166"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="760" data-up="165" data-down="164"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="781" data-up="163" data-down="162"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="800" data-up="161" data-down="160"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="521" y="818" data-up="159" data-down="158"/>
+
+
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="818" data-up="156" data-down="157"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="800" data-up="154" data-down="153"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="781" data-up="152" data-down="151"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="342" y="760" data-up="150" data-down="149"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="673" data-up="148" data-down="147"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="654" data-up="146" data-down="145"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="633" data-up="144" data-down="143"/>
+            <use xlink:href="#shelf-map__row-1-broken-shelf-2" x="340" y="615" data-up="142" data-down="141"/>
+
+            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="570" data-up="140" data-down="139"/>
+            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="551" data-up="138" data-down="137"/>
+            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="529" data-up="136" data-down="135"/>
+            <use xlink:href="#shelf-map__row-1-short-shelf" x="340" y="510" data-up="134" data-down="27"/>
             <use xlink:href="#shelf-map__vertical-shelf" x="488" y="447" data-right="26"/>
 
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="415" data-up="25" data-down="24"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="397" data-up="23" data-down="22"/>
-            <use xlink:href="#shelf-map__row-1-broken-shelf-1" x="340" y="373" data-up="21" data-down="20"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="352" data-up="19" data-down="18"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="334" data-up="17" data-down="16"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="314" data-up="15" data-down="14"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="295" data-up="13" data-down="12"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="276" data-up="11" data-down="10"/>
-            <use xlink:href="#shelf-map__row-1-broken-shelf-1" x="340" y="257" data-up="9" data-down="8"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="238" data-up="7" data-down="8"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="217" data-up="5" data-down="6"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="198" data-up="3" data-down="4"/>
-            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="178" data-up="1" data-down="2"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="415" data-up="133" data-down="132"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="397" data-up="131" data-down="130"/>
+            <use xlink:href="#shelf-map__row-1-broken-shelf-1" x="340" y="373" data-up="129" data-down="128"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="352" data-up="127" data-down="126"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="334" data-up="125" data-down="124"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="314" data-up="123" data-down="122"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="295" data-up="121" data-down="120"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="276" data-up="119" data-down="118"/>
+            <use xlink:href="#shelf-map__row-1-broken-shelf-1" x="340" y="257" data-up="117" data-down="116"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="238" data-up="115" data-down="116"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="217" data-up="113" data-down="114"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="198" data-up="111" data-down="112"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="340" y="178" data-up="109" data-down="110"/>
 
         </g>
 
