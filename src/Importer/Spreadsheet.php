@@ -2,7 +2,7 @@
 
 namespace App\Importer;
 
-class Spreadheet
+class Spreadsheet
 {
     /**
      * @var SpreadsheetRow[]
@@ -56,5 +56,16 @@ class Spreadheet
     public function getRows(): array
     {
         return $this->rows;
+    }
+
+    /**
+     * @return \Generator|SpreadsheetRow[]
+     */
+    public function nextRow(): \Generator
+    {
+        $total_rows = count($this->rows);
+        for ($i = 1; $i < $total_rows; $i++) {
+            yield new SpreadsheetRow($this->rows[$i]);
+        }
     }
 }
