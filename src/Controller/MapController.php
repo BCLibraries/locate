@@ -107,6 +107,35 @@ class MapController extends AbstractController
     }
 
     /**
+     * Highlight single shelf on map
+     *
+     * @Route("/shelf/{library_code}/{shelf_id}", name="map_highlight_shelf")
+     *
+     */
+    public function highlightShelf(string $library_code, string $shelf_id, Request $request)
+    {
+        $library_code = strtolower($library_code);
+        $shelf = $this->shelf_repository->find($shelf_id);
+
+        $map = $shelf->getMap();
+        $library = $map->getLibrary();
+
+        $page_title = $this->buildPageTitle($map);
+
+        return $this->render('map/index.html.twig', [
+            'library_code' => $library_code,
+            'library_display' => $library->getLabel(),
+            'map_display' => $map->getLabel(),
+            'shelf_display' => $shelf->getCode(),
+            'call_number' => '',
+            'shelf_id' => $shelf_id,
+            'title' => "Highlight shelf $shelf_id",
+            'svg' => $this->map_file_reader->readSvg($map)->asXML(),
+            'page_title' => $page_title
+        ]);
+    }
+
+    /**
      * @param LCNormalizer $normalizer
      * @param $call_number
      * @param ShelfRepository $shelf_repository

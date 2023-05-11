@@ -1,17 +1,30 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Locate {{ title }} {{ call_number}} - Boston College Libraries{% endblock %}
+{% block title %}
+    {% if call_number %}
+        Locate {{ title }} {{ call_number}} - Boston College Libraries
+    {% else %}
+        Highlight shelf {{ shelf_id }}
+    {% endif %}
+{% endblock %}
 
 {% block body %}
     <div class="row">
         <h3 class="header">{{ title }}</h3>
         <div class="holder">
-            <p class="col-md-9">The item with call number
-                <span class="callno-map__call-number">{{ call_number }}</span>
-                is located in <span class="callno-map__library-name">{{ library_display }}</span>,
-                <span class="callno-map__library-location">{{ map_display }}</span>
-                on row <span class="callno-map__shelf-num">{{ shelf_display }}.</span>
-            </p>
+            {% if call_number %}
+                <p class="col-md-9">The item with call number
+                    <span class="callno-map__call-number">{{ call_number }}</span>
+                    is located in <span class="callno-map__library-name">{{ library_display }}</span>,
+                    <span class="callno-map__library-location">{{ map_display }}</span>
+                    on row <span class="callno-map__shelf-num">{{ shelf_display }}.</span>
+                </p>
+            {% elseif shelf_id %}
+                <p class="col-md-9">Shelf with ID
+                    <span class="callno-map__call-number">{{ shelf_id }}</span>
+                    is highlighted in yellow.
+                </p>
+            {% endif %}
         </div>
 
 

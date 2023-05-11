@@ -2,15 +2,15 @@ import * as d3 from 'd3';
 import Coordinates from "./Coordinates";
 
 const offsets = {
-    DOWN: new Coordinates(-33, -66),
-    UP: new Coordinates(-33, -79),
-    LEFT: new Coordinates(-15, -33),
-    RIGHT: new Coordinates(-21, -73)
+    down: new Coordinates(-33, -66),
+    up: new Coordinates(-33, -79),
+    left: new Coordinates(-15, -33),
+    right: new Coordinates(-21, -73)
 };
 
 const orientations = {
-    VERTICAL: 'vertical',
-    HORIZONTAL: 'horizontal'
+    vertical: 'vertical',
+    horizontal: 'horizontal'
 };
 
 class Shelf {
@@ -44,7 +44,7 @@ class Shelf {
 
     get centerPoint() {
         const centerPoint = parseInt(this.#symbol.attr('data-centerpoint'));
-        if (this.orientation === orientations.VERTICAL) {
+        if (this.orientation === orientations.vertical) {
             return new Coordinates(this.x, this.y + centerPoint);
         } else {
             return new Coordinates(this.x + centerPoint, this.y);
@@ -52,34 +52,87 @@ class Shelf {
     }
 
     get orientation() {
-        return this.#symbol.attr('id').includes('vertical') ? orientations.VERTICAL : orientations.HORIZONTAL;
+        return this.#symbol.attr('id').includes('vertical') ? orientations.vertical : orientations.horizontal;
     }
 
     get symbol() {
         return this.#symbol;
     }
 
-    findMarkerPoint(shelfNumber) {
-        console.log(`finding marker point for ${shelfNumber}`);
-        const offset = this.#findOffset(shelfNumber);
+    /**
+     * Draw a yellow box over the selected shelf
+     *
+     * @param {string} shelfID
+     */
+    highlight(shelfID) {
+        // Get the shelf dimensions from the bounding box of the <use>
+        // element.
+        const box = this.#shelfElement.node().getBBox();
+        const dimensions = {
+            x: box.x,
+            y: box.y,
+            width: box.width,
+            height: box.height
+        }
+
+        // Change the dimensions to match the side of the shelving unit
+        // indicated by the ID.
+        if (this.#shelfElement.attr('data-up') === shelfID) {
+            dimensions.height = dimensions.height/2;
+        } else if (this.#shelfElement.attr('data-down') === shelfID) {
+            dimensions.height = dimensions.height/2;
+            dimensions.y = dimensions.y + dimensions.height;
+        } else if (this.#shelfElement.attr('data-left') === shelfID) {
+            dimensions.width = dimensions.width/2;
+        } else if (this.#shelfElement.attr('data-right') === shelfID) {
+            dimensions.width = dimensions.width/2;
+            dimensions.x = dimensions.x + dimensions.width;
+        }
+
+        // Draw the highlighted box.
+        d3.select("#shelf-map__visible-map").append('rect')
+            .attr('x', dimensions.x)
+            .attr('y', dimensions.y)
+            .attr('height', dimensions.height)
+            .attr('width', dimensions.width)
+            .attr('stroke', 'black')
+            .attr('fill', '#FFFF00')
+            .attr('stroke-width', '2');
+    }
+
+    /**
+     * Get the coordinates where a marker for this shelf should be added
+     *
+     * @param {string} shelfID
+     * @returns {Coordinates}
+     */
+    findMarkerPoint(shelfID) {
+        const offset = this.#findOffset(shelfID);
         const centerPoint = this.centerPoint;
         return centerPoint.addOffset(offset);
     }
 
-    #findOffset(shelfNumber) {
-        console.log(`finding offset for ${shelfNumber}`);
-        shelfNumber = shelfNumber.replace(/[A-Z]/,'');
-        if (this.#shelfElement.attr('data-up') == shelfNumber) {
-            return offsets.UP;
-        } else if (this.#shelfElement.attr('data-down') == shelfNumber) {
-            return offsets.DOWN;
-        } else if (this.#shelfElement.attr('data-left') == shelfNumber) {
-            return offsets.LEFT;
+    /**
+     * Find the offset from the shelf <use> element for the marker
+     *
+     * The marker should not be placed directly on the shelf, but in the aisle facing
+     * the shelf. To do that, we need the orientation of the shelf.
+     *
+     * @param {string} shelfID
+     * @returns {Coordinates}
+     */
+    #findOffset(shelfID) {
+        shelfID = shelfID.replace(/[A-Z]/,'');
+        if (this.#shelfElement.attr('data-up') === shelfID) {
+            return offsets.up;
+        } else if (this.#shelfElement.attr('data-down') === shelfID) {
+            return offsets.down;
+        } else if (this.#shelfElement.attr('data-left') === shelfID) {
+            return offsets.left;
         } else {
-            return offsets.RIGHT;
+            return offsets.right;
         }
     }
-
 }
 
 export default Shelf;
