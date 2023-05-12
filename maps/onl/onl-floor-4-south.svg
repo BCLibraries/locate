@@ -628,9 +628,9 @@
             <rect x="114" width="47" height="12" class="shelf-map__shelf-body"/>
         </symbol>
 
-        <symbol id="shelf-map__row-7-small-shelf-1" data-centerpoint="65.5" data-thickness="12">
+        <symbol id="shelf-map__row-7-small-shelf-1" data-centerpoint="26.5" data-thickness="12">
             <rect x="2.5" y="2.5" width="53" height="12" class="shelf-map__shelf-shadow"/>
-            <rect width="53" height="12"  fill="#FFFF00"/>
+            <rect width="53" height="12" class="shelf-map__shelf-body"/>
         </symbol>
 
         <symbol id="shelf-map__row-8-full-shelf" data-centerpoint="67" data-thickness="12">
