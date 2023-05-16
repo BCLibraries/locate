@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="200 0 1500 800" data-viewbox="740 0 900 880" xml:space="preserve" preserveAspectRatio="xMinYMin meet">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="200 0 1500 800" data-viewbox="740 0 900 880" xml:space="preserve" preserveAspectRatio="xMinYMin meet">
     <g id="_x33__floor">
         <g id="rooms" display="inline">
             <rect x="606" y="616" fill="#CCCCCC" width="165" height="55"/>
             <polygon fill="#4D4D4D" points="1352.343,599 1314,599 1314,531 1353.381,531 		"/>
             <rect x="1067" y="556" fill="#4D4D4D" width="41" height="19"/>
-            <polygon fill="#FFFFFF" points="1641,741 1641,64 1219,64 1219,137 965.9,137 964.865,620.867 964.862,622.499 1084.326,741 		"/>
+            <polygon fill="#FFFFFF"
+                     points="1641,741 1641,64 1219,64 1219,137 965.9,137 964.865,620.867 964.862,622.499 1084.326,741 		"/>
             <rect x="850" y="289" fill="#4D4D4D" width="118" height="126"/>
             <polygon fill="#E6E6E6" points="771.641,616 850,616 850,694.397 843.961,707.578 836.227,715.895 826.814,722.479
 			808.072,725.598 800.088,723.52 790.378,720.054 782.057,713.123 775.818,702.379 770.965,691.566 		"/>
@@ -26,13 +28,15 @@
             <polygon fill="#A4E2F7" points="330,474.167 330,488 366,488 366,444 330,444 		"/>
             <polygon fill="#668FAD" points="511.936,464 486,464 486,500 482.849,500 481.117,598.746 484.927,613 529,613 529,478.323
 			526.008,470.012 518.799,466.227 		"/>
-            <polygon fill="#4D4D4D" points="486,443.695 478,444.042 478,487 443,487 443,444 432,444 432,488 397,488 397,500 486,500 		"/>
+            <polygon fill="#4D4D4D"
+                     points="486,443.695 478,444.042 478,487 443,487 443,444 432,444 432,488 397,488 397,500 486,500 		"/>
             <rect x="330" y="488" fill="#4D4D4D" width="34" height="12"/>
             <path fill="#FFFFFF" d="M966.826,415.009L849,416l1-125l116.405-2L965.9,138H842V63H331v340h-30v41h63v56h34v-56h89v20h13.509
 			h11.427l6.863,2.227l4.785,3.265l5.416,5.714V613h28v2.447l50.928,1.039L850,615.447V449h116.939L966.826,415.009z M748,495H631
 			v-48h117V495z"/>
             <rect x="512" y="881" fill="#4D4D4D" width="94" height="43"/>
-            <polygon fill="#BDCDD1" points="606,616 557,616 557,636 296,636 296,670 232,670 232,924 512,924 512,881 606,881 		"/>
+            <polygon fill="#BDCDD1"
+                     points="606,616 557,616 557,636 296,636 296,670 232,670 232,924 512,924 512,881 606,881 		"/>
             <rect x="232" y="615" fill="#4D4D4D" width="64" height="54"/>
             <polygon fill="#B1D4DD" points="557,613 484.927,613 483,594.581 483,500 271.968,500 231,500 231,616 296,616 296,636
 			483.888,636 557,636 		"/>
@@ -79,11 +83,16 @@
     </g>
             <g>
         <rect x="849.5" y="566.5" fill="#CCCCCC" stroke="#333333" stroke-miterlimit="10" width="114" height="9"/>
-                <rect x="849.5" y="556.5" fill="#CCCCCC" stroke="#4D4D4D" stroke-miterlimit="10" width="114" height="10"/>
-                <rect x="849.5" y="547.5" fill="#CCCCCC" stroke="#666666" stroke-miterlimit="10" width="114" height="9"/>
-                <rect x="849.5" y="537.5" fill="#CCCCCC" stroke="#808080" stroke-miterlimit="10" width="114" height="10"/>
-                <rect x="849.5" y="528.5" fill="#CCCCCC" stroke="#999999" stroke-miterlimit="10" width="114" height="9"/>
-                <rect x="849.5" y="519.5" fill="#CCCCCC" stroke="#B3B3B3" stroke-miterlimit="10" width="114" height="9"/>
+                <rect x="849.5" y="556.5" fill="#CCCCCC" stroke="#4D4D4D" stroke-miterlimit="10" width="114"
+                      height="10"/>
+                <rect x="849.5" y="547.5" fill="#CCCCCC" stroke="#666666" stroke-miterlimit="10" width="114"
+                      height="9"/>
+                <rect x="849.5" y="537.5" fill="#CCCCCC" stroke="#808080" stroke-miterlimit="10" width="114"
+                      height="10"/>
+                <rect x="849.5" y="528.5" fill="#CCCCCC" stroke="#999999" stroke-miterlimit="10" width="114"
+                      height="9"/>
+                <rect x="849.5" y="519.5" fill="#CCCCCC" stroke="#B3B3B3" stroke-miterlimit="10" width="114"
+                      height="9"/>
                 <polygon fill="#4D4D4D" points="906,563 900.381,563 907.727,570.346 915.073,563 910,563 910,529 915.073,529 907.727,521.655
 				900.381,529 906,529 			"/>
     </g>
@@ -470,14 +479,16 @@
             <rect x="1067" y="556" fill="none" stroke="#000000" stroke-width="2" width="41" height="19"/>
             <polyline fill="none" stroke="#000000" stroke-width="2" points="606,882 512,882 512,924 		"/>
             <line fill="none" stroke="#000000" stroke-width="2" x1="300" y1="636" x2="295" y2="636"/>
-            <polyline fill="none" stroke="#000000" stroke-width="2" points="495,613 484.927,613 484.595,637.238 		"/>
+            <polyline fill="none" stroke="#000000" stroke-width="2"
+                      points="495,613 484.927,613 484.595,637.238 		"/>
             <polyline fill="none" stroke="#000000" stroke-width="2" points="315,636 557,636 557,613 512,613 		"/>
             <path fill="none" stroke="#000000" stroke-width="2" d="M528,612c0,0,0-128.121,0-134.716c0-4.23-4.266-12.284-14.68-12.284
 			c-10.413,0-12.32,0-12.32,0v9c0,0,6.167,0,10.936,0c4.77,0,6.064,2.7,6.064,6.746c0,7.091,0,132.254,0,132.254"/>
             <line fill="none" stroke="#000000" stroke-width="2" x1="482" y1="596" x2="482" y2="515"/>
             <line fill="none" stroke="#000000" stroke-width="2" x1="487" y1="517" x2="469" y2="517"/>
             <polyline fill="none" stroke="#000000" stroke-width="2" points="397,457 397,444 445,444 		"/>
-            <polyline fill="none" stroke="#000000" stroke-width="2" points="457,444 486,444 486,500 397,500 397,473 		"/>
+            <polyline fill="none" stroke="#000000" stroke-width="2"
+                      points="457,444 486,444 486,500 397,500 397,473 		"/>
             <polyline fill="none" stroke="#000000" stroke-width="2" points="478,444 478,487 442,487 442,444 		"/>
             <line fill="none" stroke="#000000" stroke-width="2" x1="442" y1="499" x2="442" y2="484"/>
             <line fill="none" stroke="#000000" stroke-width="2" x1="432" y1="444" x2="432" y2="500"/>
@@ -510,120 +521,127 @@
             <line fill="none" stroke="#000000" stroke-width="2" x1="275" y1="616" x2="233" y2="616"/>
             <polyline fill="none" stroke="#000000" stroke-width="2" points="233,669 296,669 296,616 290,616 		"/>
             <line fill="none" stroke="#000000" stroke-width="2" x1="331" y1="306" x2="232" y2="306"/>
-            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="747,463 747,447 632,447 632,463 		"/>
-            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="632,479 632,495 747,495 747,479 		"/>
-            <polyline fill="none" stroke="#000000" stroke-width="2" points="1080,360 1080,407 1129,407 1129,283 1100,283 		"/>
+            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10"
+                      points="747,463 747,447 632,447 632,463 		"/>
+            <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10"
+                      points="632,479 632,495 747,495 747,479 		"/>
+            <polyline fill="none" stroke="#000000" stroke-width="2"
+                      points="1080,360 1080,407 1129,407 1129,283 1100,283 		"/>
             <rect x="1043" y="282" fill="none" stroke="#000000" stroke-width="2" width="34" height="62"/>
 </g>
 
-        <polygon id="shelf-map__tech-help" points='963,500 963,621, 1003,621 1038,580 1038,500' style='fill:#BDCDD1;stroke:black;stroke-width:1' />
+        <polygon id="shelf-map__tech-help" points='963,500 963,621, 1003,621 1038,580 1038,500'
+                 style='fill:#BDCDD1;stroke:black;stroke-width:1'/>
 
+        <g id="shelf-map__visible-map">
         <use xlink:href="#shelf-map__vertical-shelf" x="1454" y="65"/>
-        <use xlink:href="#shelf-map__vertical-shelf" x="1523" y="65"/>
-        <use xlink:href="#shelf-map__vertical-shelf" x="1375" y="65"/>
-        <use xlink:href="#shelf-map__vertical-shelf" x="1306" y="65"/>
-        <use xlink:href="#shelf-map__vertical-shelf" x="1218" y="75"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1523" y="65"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1375" y="65"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1306" y="65"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1218" y="75"/>
 
-        <g transform="translate(1480,697)">
+            <g transform="translate(1480,697)">
             <text x="5" y="18">Rows 95-155</text>
-            <use xlink:href="#shelf-map__corner-arrow-up" x="84" y="0"/>
+                <use xlink:href="#shelf-map__corner-arrow-up" x="84" y="0"/>
         </g>
 
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="683" data-down="895" data-up="896"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="661" data-down="897" data-up="898"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="639" data-down="899" data-up="900"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="683" data-down="895" data-up="896"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="661" data-down="897" data-up="898"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="639" data-down="899" data-up="900"/>
 
-        <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="618" data-down="901" data-up="902"/>
+            <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="618" data-down="901" data-up="902"/>
 
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="596" data-down="903" data-up="904"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="574" data-down="905" data-up="906"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="552" data-down="907" data-up="908"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="530" data-down="909" data-up="910"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="505" data-down="911" data-up="912"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="596" data-down="903" data-up="904"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="574" data-down="905" data-up="906"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="552" data-down="907" data-up="908"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="530" data-down="909" data-up="910"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="505" data-down="911" data-up="912"/>
 
-        <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="483" data-down="913" data-up="914"/>
+            <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="483" data-down="913" data-up="914"/>
 
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="462" data-down="915" data-up="916"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="440" data-down="917" data-up="918"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="406" data-down="919" data-up="920"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="384" data-down="921" data-up="922"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="462" data-down="915" data-up="916"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="440" data-down="917" data-up="918"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="406" data-down="919" data-up="920"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="384" data-down="921" data-up="922"/>
 
-        <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="363" data-down="923" data-up="924"/>
+            <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="363" data-down="923" data-up="924"/>
 
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="340" data-down="925" data-up="926"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="318" data-down="927" data-up="928"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="298" data-down="929" data-up="930"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="278" data-down="931" data-up="932"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="256" data-down="933" data-up="934"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="340" data-down="925" data-up="926"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="318" data-down="927" data-up="928"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="298" data-down="929" data-up="930"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="278" data-down="931" data-up="932"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="256" data-down="933" data-up="934"/>
 
-        <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="236" data-down="935" data-up="936"/>
+            <use xlink:href="#shelf-map__row-3-broken-shelf" x="1473" y="236" data-down="935" data-up="936"/>
 
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="214" data-down="937" data-up="938"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="192" data-down="939" data-up="940"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="172" data-down="941" data-up="942"/>
-        <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="150" data-down="943" data-up="944"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="214" data-down="937" data-up="938"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="192" data-down="939" data-up="940"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="172" data-down="941" data-up="942"/>
+            <use xlink:href="#shelf-map__row-3-full-shelf" x="1473" y="150" data-down="943" data-up="944"/>
 
 
-        <use xlink:href="#shelf-map__row-2-short-broken-shelf" x="1360" y="618" data-down="894" data-up="893"/>
+            <use xlink:href="#shelf-map__row-2-short-broken-shelf" x="1360" y="618" data-down="894" data-up="893"/>
 
-        <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="596" data-down="892" data-up="891"/>
-        <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="574" data-down="890" data-up="889"/>
-        <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="552" data-down="888" data-up="887"/>
-        <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="530" data-down="886" data-up="885"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="505" data-down="884" data-up="883"/>
-        <use xlink:href="#shelf-map__row-2-broken-shelf" x="1313" y="483" data-down="882" data-up="881"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="462" data-down="880" data-up="879"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="441" data-down="878" data-up="877"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="407" data-down="876" data-up="875"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="386" data-down="874" data-up="873"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="596" data-down="892" data-up="891"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="574" data-down="890" data-up="889"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="552" data-down="888" data-up="887"/>
+            <use xlink:href="#shelf-map__row-2-short-shelf" x="1360" y="530" data-down="886" data-up="885"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="505" data-down="884" data-up="883"/>
+            <use xlink:href="#shelf-map__row-2-broken-shelf" x="1313" y="483" data-down="882" data-up="881"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="462" data-down="880" data-up="879"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="441" data-down="878" data-up="877"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="407" data-down="876" data-up="875"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="386" data-down="874" data-up="873"/>
 
-        <use xlink:href="#shelf-map__row-2-broken-shelf" x="1313" y="364" data-down="872" data-up="871"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="341" data-down="870" data-up="869"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="320" data-down="868" data-up="867"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="299" data-down="866" data-up="865"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="278" data-down="864" data-up="863"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="256" data-down="862" data-up="861"/>
+            <use xlink:href="#shelf-map__row-2-broken-shelf" x="1313" y="364" data-down="872" data-up="871"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="341" data-down="870" data-up="869"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="320" data-down="868" data-up="867"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="299" data-down="866" data-up="865"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="278" data-down="864" data-up="863"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="256" data-down="862" data-up="861"/>
 
-        <use xlink:href="#shelf-map__row-2-broken-shelf" x="1313" y="237" data-down="860" data-up="859"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="214" data-down="858" data-up="857"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="192" data-down="856" data-up="855"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="170" data-down="854" data-up="853"/>
-        <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="150" data-down="852" data-up="851"/>
+            <use xlink:href="#shelf-map__row-2-broken-shelf" x="1313" y="237" data-down="860" data-up="859"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="214" data-down="858" data-up="857"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="192" data-down="856" data-up="855"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="170" data-down="854" data-up="853"/>
+            <use xlink:href="#shelf-map__row-2-full-shelf" x="1313" y="150" data-down="852" data-up="851"/>
 
-        <g transform="translate(1323,124)">
+            <g transform="translate(1323,124)">
             <text x="5" y="18">Rows 51-94</text>
-            <use xlink:href="#shelf-map__corner-arrow-down" x="72" y="0"/>
+                <use xlink:href="#shelf-map__corner-arrow-down" x="72" y="0"/>
         </g>
 
-        <g transform="translate(1172,636)">
+            <g transform="translate(1172,636)">
             <text x="5" y="18">Rows 1-42</text>
-            <use xlink:href="#shelf-map__corner-arrow-up" x="72" y="0"/>
+                <use xlink:href="#shelf-map__corner-arrow-up" x="72" y="0"/>
         </g>
 
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="618" data-down="801" data-up="802"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="596" data-down="803" data-up="804"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="574" data-down="805" data-up="806"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="552" data-down="807" data-up="808"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="530" data-down="809" data-up="810"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="505" data-down="811" data-up="812"/>
-        <use xlink:href="#shelf-map__row-1-broken-shelf" x="1172" y="482" data-down="813" data-up="814"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="463" data-down="815" data-up="816"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="618" data-down="801" data-up="802"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="596" data-down="803" data-up="804"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="574" data-down="805" data-up="806"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="552" data-down="807" data-up="808"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="530" data-down="809" data-up="810"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="505" data-down="811" data-up="812"/>
+            <use xlink:href="#shelf-map__row-1-broken-shelf" x="1172" y="482" data-down="813" data-up="814"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="463" data-down="815" data-up="816"/>
 
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="441" data-down="new-arrivals" data-up="reshelve"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="441" data-down="new-arrivals"
+                 data-up="reshelve"/>
 
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="405" data-down="817" data-up="818"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="385" data-down="819" data-up="820"/>
-        <use xlink:href="#shelf-map__row-1-broken-shelf" x="1172" y="364" data-down="821" data-up="822"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="341" data-down="823" data-up="824"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="322" data-down="825" data-up="826"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="300" data-down="827" data-up="828"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="280" data-down="829" data-up="830"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="257" data-down="831" data-up="832"/>
-        <use xlink:href="#shelf-map__row-1-broken-shelf" x="1172" y="238" data-down="833" data-up="834"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="215" data-down="835" data-up="836"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="194" data-down="837" data-up="838"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="173" data-down="839" data-up="840"/>
-        <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="153" data-down="841" data-up="842"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="405" data-down="817" data-up="818"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="385" data-down="819" data-up="820"/>
+            <use xlink:href="#shelf-map__row-1-broken-shelf" x="1172" y="364" data-down="821" data-up="822"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="341" data-down="823" data-up="824"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="322" data-down="825" data-up="826"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="300" data-down="827" data-up="828"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="280" data-down="829" data-up="830"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="257" data-down="831" data-up="832"/>
+            <use xlink:href="#shelf-map__row-1-broken-shelf" x="1172" y="238" data-down="833" data-up="834"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="215" data-down="835" data-up="836"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="194" data-down="837" data-up="838"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="173" data-down="839" data-up="840"/>
+            <use xlink:href="#shelf-map__row-1-full-shelf" x="1172" y="153" data-down="841" data-up="842"/>
+        </g>
 
         <g id="stacks_x5F_periodicals" display="inline">
             <rect x="1145" y="555" width="14" height="111"/>
@@ -682,10 +700,12 @@
 				H849.083z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M843.25,440h-8.75v1.25h3.75v1.25h-10v-1.25H832V440h-8.75v-15h20V440z M825.75,427.5v10h15v-10H825.75z"/>
+        <path fill="#1A1A1A"
+              d="M843.25,440h-8.75v1.25h3.75v1.25h-10v-1.25H832V440h-8.75v-15h20V440z M825.75,427.5v10h15v-10H825.75z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M820.75,440H812v1.25h3.75v1.25h-10v-1.25h3.75V440h-8.75v-15h20V440z M803.25,427.5v10h15v-10H803.25z"/>
+        <path fill="#1A1A1A"
+              d="M820.75,440H812v1.25h3.75v1.25h-10v-1.25h3.75V440h-8.75v-15h20V440z M803.25,427.5v10h15v-10H803.25z"/>
     </g>
         <g>
         <path fill="#1A1A1A" d="M790.833,440h-8.75v1.25h3.75v1.25h-10v-1.25h3.75V440h-8.75v-15h20V440z M773.333,427.5v10h15v-10
@@ -744,10 +764,12 @@
 				h15v-10H750.833z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M843.25,336h-8.75v1.25h3.75v1.25h-10v-1.25H832V336h-8.75v-15h20V336z M825.75,323.5v10h15v-10H825.75z"/>
+        <path fill="#1A1A1A"
+              d="M843.25,336h-8.75v1.25h3.75v1.25h-10v-1.25H832V336h-8.75v-15h20V336z M825.75,323.5v10h15v-10H825.75z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M820.75,336H812v1.25h3.75v1.25h-10v-1.25h3.75V336h-8.75v-15h20V336z M803.25,323.5v10h15v-10H803.25z"/>
+        <path fill="#1A1A1A"
+              d="M820.75,336H812v1.25h3.75v1.25h-10v-1.25h3.75V336h-8.75v-15h20V336z M803.25,323.5v10h15v-10H803.25z"/>
     </g>
         <g>
         <path fill="#1A1A1A" d="M790.833,336h-8.75v1.25h3.75v1.25h-10v-1.25h3.75V336h-8.75v-15h20V336z M773.333,323.5v10h15v-10
@@ -806,52 +828,68 @@
 				H789.083z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M733.5,361.5h-8.75v1.25h3.75V364h-10v-1.25h3.75v-1.25h-8.75v-15h20V361.5z M716,349v10h15v-10H716z"/>
+        <path fill="#1A1A1A"
+              d="M733.5,361.5h-8.75v1.25h3.75V364h-10v-1.25h3.75v-1.25h-8.75v-15h20V361.5z M716,349v10h15v-10H716z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M711,361.5h-8.75v1.25H706V364h-10v-1.25h3.75v-1.25H691v-15h20V361.5z M693.5,349v10h15v-10H693.5z"/>
+        <path fill="#1A1A1A"
+              d="M711,361.5h-8.75v1.25H706V364h-10v-1.25h3.75v-1.25H691v-15h20V361.5z M693.5,349v10h15v-10H693.5z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M673.5,361.5h-8.75v1.25h3.75V364h-10v-1.25h3.75v-1.25h-8.75v-15h20V361.5z M656,349v10h15v-10H656z"/>
+        <path fill="#1A1A1A"
+              d="M673.5,361.5h-8.75v1.25h3.75V364h-10v-1.25h3.75v-1.25h-8.75v-15h20V361.5z M656,349v10h15v-10H656z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M651,361.5h-8.75v1.25H646V364h-10v-1.25h3.75v-1.25H631v-15h20V361.5z M633.5,349v10h15v-10H633.5z"/>
+        <path fill="#1A1A1A"
+              d="M651,361.5h-8.75v1.25H646V364h-10v-1.25h3.75v-1.25H631v-15h20V361.5z M633.5,349v10h15v-10H633.5z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M733.5,329.75h-8.75V331h3.75v1.25h-10V331h3.75v-1.25h-8.75v-15h20V329.75z M716,317.25v10h15v-10H716z"/>
+        <path fill="#1A1A1A"
+              d="M733.5,329.75h-8.75V331h3.75v1.25h-10V331h3.75v-1.25h-8.75v-15h20V329.75z M716,317.25v10h15v-10H716z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M711,329.75h-8.75V331H706v1.25h-10V331h3.75v-1.25H691v-15h20V329.75z M693.5,317.25v10h15v-10H693.5z"/>
+        <path fill="#1A1A1A"
+              d="M711,329.75h-8.75V331H706v1.25h-10V331h3.75v-1.25H691v-15h20V329.75z M693.5,317.25v10h15v-10H693.5z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M673.5,329.75h-8.75V331h3.75v1.25h-10V331h3.75v-1.25h-8.75v-15h20V329.75z M656,317.25v10h15v-10H656z"/>
+        <path fill="#1A1A1A"
+              d="M673.5,329.75h-8.75V331h3.75v1.25h-10V331h3.75v-1.25h-8.75v-15h20V329.75z M656,317.25v10h15v-10H656z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M651,329.75h-8.75V331H646v1.25h-10V331h3.75v-1.25H631v-15h20V329.75z M633.5,317.25v10h15v-10H633.5z"/>
+        <path fill="#1A1A1A"
+              d="M651,329.75h-8.75V331H646v1.25h-10V331h3.75v-1.25H631v-15h20V329.75z M633.5,317.25v10h15v-10H633.5z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M733.5,298.75h-8.75V300h3.75v1.25h-10V300h3.75v-1.25h-8.75v-15h20V298.75z M716,286.25v10h15v-10H716z"/>
+        <path fill="#1A1A1A"
+              d="M733.5,298.75h-8.75V300h3.75v1.25h-10V300h3.75v-1.25h-8.75v-15h20V298.75z M716,286.25v10h15v-10H716z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M711,298.75h-8.75V300H706v1.25h-10V300h3.75v-1.25H691v-15h20V298.75z M693.5,286.25v10h15v-10H693.5z"/>
+        <path fill="#1A1A1A"
+              d="M711,298.75h-8.75V300H706v1.25h-10V300h3.75v-1.25H691v-15h20V298.75z M693.5,286.25v10h15v-10H693.5z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M673.5,298.75h-8.75V300h3.75v1.25h-10V300h3.75v-1.25h-8.75v-15h20V298.75z M656,286.25v10h15v-10H656z"/>
+        <path fill="#1A1A1A"
+              d="M673.5,298.75h-8.75V300h3.75v1.25h-10V300h3.75v-1.25h-8.75v-15h20V298.75z M656,286.25v10h15v-10H656z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M651,298.75h-8.75V300H646v1.25h-10V300h3.75v-1.25H631v-15h20V298.75z M633.5,286.25v10h15v-10H633.5z"/>
+        <path fill="#1A1A1A"
+              d="M651,298.75h-8.75V300H646v1.25h-10V300h3.75v-1.25H631v-15h20V298.75z M633.5,286.25v10h15v-10H633.5z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M733.5,267h-8.75v1.25h3.75v1.25h-10v-1.25h3.75V267h-8.75v-15h20V267z M716,254.5v10h15v-10H716z"/>
+        <path fill="#1A1A1A"
+              d="M733.5,267h-8.75v1.25h3.75v1.25h-10v-1.25h3.75V267h-8.75v-15h20V267z M716,254.5v10h15v-10H716z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M711,267h-8.75v1.25H706v1.25h-10v-1.25h3.75V267H691v-15h20V267z M693.5,254.5v10h15v-10H693.5z"/>
+        <path fill="#1A1A1A"
+              d="M711,267h-8.75v1.25H706v1.25h-10v-1.25h3.75V267H691v-15h20V267z M693.5,254.5v10h15v-10H693.5z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M673.5,267h-8.75v1.25h3.75v1.25h-10v-1.25h3.75V267h-8.75v-15h20V267z M656,254.5v10h15v-10H656z"/>
+        <path fill="#1A1A1A"
+              d="M673.5,267h-8.75v1.25h3.75v1.25h-10v-1.25h3.75V267h-8.75v-15h20V267z M656,254.5v10h15v-10H656z"/>
     </g>
         <g>
-        <path fill="#1A1A1A" d="M651,267h-8.75v1.25H646v1.25h-10v-1.25h3.75V267H631v-15h20V267z M633.5,254.5v10h15v-10H633.5z"/>
+        <path fill="#1A1A1A"
+              d="M651,267h-8.75v1.25H646v1.25h-10v-1.25h3.75V267H631v-15h20V267z M633.5,254.5v10h15v-10H633.5z"/>
     </g>
         <g>
         <path fill="#1A1A1A" d="M604.618,395.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V395.096z M587.118,382.596v10
@@ -949,7 +987,7 @@
         <path fill="#1A1A1A" d="M559.618,268.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V268.096z M542.118,255.596v10
 				h15v-10H542.118z"/>
     </g>
-        <g  transform="translate(9, 0)">
+        <g transform="translate(9, 0)">
         <path fill="#1A1A1A" d="M536.618,268.096h-8.75v1.25h3.75v1.25h-10v-1.25h3.75v-1.25h-8.75v-15h20V268.096z M519.118,255.596v10
 				h15v-10H519.118z"/>
     </g>
@@ -967,14 +1005,16 @@
     </g>
 </g>
     <g id="labels_2_" display="inline">
-            <rect x="195" y="18.063" transform="matrix(1 0.0033 -0.0033 1 0.1177 -1.4258)" fill="none" width="464.498" height="33"/>
+            <rect x="195" y="18.063" transform="matrix(1 0.0033 -0.0033 1 0.1177 -1.4258)" fill="none" width="464.498"
+                  height="33"/>
         <rect x="770" y="628.001" fill="none" width="80" height="10.666"/>
         <text transform="matrix(1 0 0 1 791.084 635.6006)" font-family="'Verdana'" font-size="10">STAIRS</text>
         <rect x="851.333" y="585.818" fill="none" width="115.334" height="33.332"/>
         <text transform="matrix(1 0 0 1 890.084 593.418)"><tspan x="0" y="0" font-family="'Verdana'" font-size="10">STAIRS</tspan>
             <tspan x="-31.133" y="12" font-family="'Verdana'" font-size="10">TO LOWER CAMPUS</tspan></text>
         <rect x="617.663" y="732.196" fill="none" width="160.004" height="32"/>
-        <text transform="matrix(1 0 0 1 617.6626 743.5957)" font-family="'Verdana'" font-size="15">TO O’NEILL PLAZA</text>
+        <text transform="matrix(1 0 0 1 617.6626 743.5957)" font-family="'Verdana'"
+              font-size="15">TO O’NEILL PLAZA</text>
         <polygon fill="#4D4D4D" points="641,669 640.968,669 641.088,587.186 647.239,587.192 640.048,579.999 632.717,587.331
 			639.183,587.063 638.956,673 638.988,673 638.868,714.814 632.717,714.808 639.908,722.001 647.239,714.669 640.773,714.938 		"/>
         <polygon fill="#4D4D4D" points="697,669 696.968,669 697.088,587.186 703.239,587.192 696.048,579.999 688.717,587.331
@@ -1175,7 +1215,8 @@
 
         <symbol id="shelf-map__map-pin" data-width="35" data-height="52">
             <svg width="84" height="84" viewBox="0 0 24 24">
-                <path fill="yellow" stroke="black" d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+                <path fill="yellow" stroke="black"
+                      d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
             </svg>
         </symbol>
     </defs>
