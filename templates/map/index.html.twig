@@ -4,7 +4,7 @@
     {% if call_number %}
         Locate {{ title }} {{ call_number}} - Boston College Libraries
     {% else %}
-        Highlight shelf {{ shelf_id }}
+        Highlight row {{ shelf_id }}
     {% endif %}
 {% endblock %}
 
@@ -20,7 +20,7 @@
                     on row <span class="callno-map__shelf-num">{{ shelf_display }}.</span>
                 </p>
             {% elseif shelf_id %}
-                <p class="col-md-9">Shelf with ID
+                <p class="col-md-9">Row with ID
                     <span class="callno-map__call-number">{{ shelf_id }}</span>
                     is highlighted in yellow.
                 </p>
