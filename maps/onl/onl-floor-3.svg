@@ -534,11 +534,11 @@
                  style='fill:#BDCDD1;stroke:black;stroke-width:1'/>
 
         <g id="shelf-map__visible-map">
-        <use xlink:href="#shelf-map__vertical-shelf" x="1454" y="65"/>
             <use xlink:href="#shelf-map__vertical-shelf" x="1523" y="65"/>
-            <use xlink:href="#shelf-map__vertical-shelf" x="1375" y="65"/>
-            <use xlink:href="#shelf-map__vertical-shelf" x="1306" y="65"/>
-            <use xlink:href="#shelf-map__vertical-shelf" x="1218" y="75"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1454" y="65"  data-left="848" data-right="849"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1375" y="65" data-left="846" data-right="847"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1306" y="65" data-left="844" data-right="845"/>
+            <use xlink:href="#shelf-map__vertical-shelf" x="1218" y="75" data-right="843"/>
 
             <g transform="translate(1480,697)">
             <text x="5" y="18">Rows 95-155</text>
