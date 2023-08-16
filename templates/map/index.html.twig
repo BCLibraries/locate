@@ -69,6 +69,7 @@
 
                                 <input type="tel" id="phone" name="phone" autocomplete="tel"
                                        class="form-control sms-form__input"
+                                       maxlength="14"
                                        pattern="(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})\s*$"
                                        required>
                                 <span class="sms-form__validity"></span>
@@ -85,4 +86,34 @@
             </div>
         </div>
     </div>
+
+<script>
+
+const telFormatter = (e) => {
+    console.log("hey: " + parseInt(e.key));
+
+    let input = document.getElementById('phone');
+
+    console.log(input.value);
+
+    if (parseInt(e.key) >= 0) { 
+        let formatted = input.value.replace(/\D/g,''); //remove sht that isn't numbers
+
+        let newForm = '(' + formatted.substring(0,3);
+
+        if (formatted.length >= 4) {
+            newForm = newForm + ') ' + formatted.substring(3,6);
+        }
+        if (formatted.length >= 7) {
+            newForm = newForm + '-' + formatted.substring(6,10); 
+        }
+
+        input.value = newForm;
+    }
+}
+
+document.getElementById('phone').addEventListener('keyup',telFormatter);
+document.getElementById('phone').addEventListener('keydown',telFormatter);
+
+</script>
 {% endblock %}
