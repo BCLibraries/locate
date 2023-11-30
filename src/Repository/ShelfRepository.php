@@ -31,6 +31,7 @@ class ShelfRepository extends ServiceEntityRepository
                 AND s.end_sort_call_number >= :normalized_call_number')
             ->setParameter('library_code', $library_code)
             ->setParameter('normalized_call_number', $normalized_call_number)
+            ->setMaxResults(1)
             ->getOneOrNullResult();
     }
 }
