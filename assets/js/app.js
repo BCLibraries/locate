@@ -109,3 +109,39 @@ function setModalMessage(message) {
 function showLoadingSpinner() {
     setModalMessage(`<div class="sms-form__loading-container"><img class="sms-form__loading-spinner" src="${spinnerPath}" alt="Loading"></div>`);
 }
+
+/**  
+ * Function and event listeners for SMS input area auto-formatting
+ * 
+ * @param {e}
+ */
+
+
+window.addEventListener("load", function () {
+    const telFormatter = (e) => { 
+        // If the pressed key was a number or backspacer...
+        if (parseInt(e.key) >= 0 || e.key === "Backspace" || e.key === "Delete") {
+
+            // Take the current input value and remove stuff that isn't numbers...
+            let input = document.getElementById('phone');   
+            let formatted = input.value.replace(/\D/g,'');
+
+            // Reformat these into (123) 456-7890 depending on length...
+            if (formatted.length > 0) {
+                let newForm = '(' + formatted.substring(0,3);
+                if (formatted.length >= 4) {
+                    newForm = newForm + ') ' + formatted.substring(3,6);
+                }
+                if (formatted.length >= 7) {
+                    newForm = newForm + '-' + formatted.substring(6,10); 
+                }
+
+                // ...And put this new formatted string into the input value.
+                input.value = newForm;
+            }
+        }
+    }
+
+    document.getElementById('phone').addEventListener('keyup',telFormatter);
+    document.getElementById('phone').addEventListener('keydown',telFormatter);
+});
