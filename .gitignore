@@ -31,3 +31,6 @@ yarn-error.log
 
 # Don't save data files
 backups/*csv
+
+# IDE config
+.idea

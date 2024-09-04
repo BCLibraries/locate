@@ -40,7 +40,7 @@
     },
     "sort-packages": true,
     "platform": {
-      "php": "7.4.14"
+      "php": "8.0.30"
     },
     "allow-plugins": {
       "symfony/flex": true
