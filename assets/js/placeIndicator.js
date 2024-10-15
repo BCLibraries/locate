@@ -2,6 +2,7 @@ import Shelf from "./Shelf";
 import * as d3 from "d3";
 
 let horizontalViewBox = '';
+console.log('PLACING');
 
 /**
  * Determine where the indicator should go and place it on the map
@@ -12,6 +13,7 @@ function placeIndicator(shelfId) {
     // Check the shelf number against the data-up, data-down, data-left
     // and data-right attributes of the shelves. If the number matches,
     // paint the shelf.
+    console.log(`placing at ${shelfId}`);
     ['up', 'down', 'left', 'right'].some(type => {
         const match = d3.select(`use[data-${type}="${shelfId}"]`);
         if (!match.empty()) {

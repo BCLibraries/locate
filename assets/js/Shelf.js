@@ -4,7 +4,7 @@ import Coordinates from "./Coordinates";
 const offsets = {
     down: new Coordinates(-33, -66),
     up: new Coordinates(-33, -79),
-    left: new Coordinates(-15, -33),
+    left: new Coordinates(-25, -33),
     right: new Coordinates(-21, -73)
 };
 

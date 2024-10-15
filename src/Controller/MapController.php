@@ -43,20 +43,14 @@ class MapController extends AbstractController
 
         // Redirect anything that isn't in O'Neill to the old Locate.
         if ($library_code !== 'onl') {
-            $params = [
-                'callnum' => $call_number,
-                'location_code' => $request->query->get('location_code'),
-                'collection' => $request->query->get('collection'),
-                'sublibrary' => $library_code,
-                'title' => $title,
-                'source' => 'Alma'
-            ];
-            return $this->redirect("http://arc.bc.edu:8080/FloorMap/SayHi.do?" . http_build_query($params));
+            // @todo handle bad library codes
         }
 
-
+        echo "<pre>";
         $normalized_call_number = $this->normalizer->normalize($call_number);
+        echo "findOneByLibraryAndCallNumber($library_code, $normalized_call_number)";
         $shelf = $this->shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
+        echo "</pre>";
 
         if (null === $shelf) {
             return $this->render('map/404.html.twig', [
