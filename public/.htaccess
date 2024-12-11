@@ -21,8 +21,8 @@ DirectoryIndex index.php
     RewriteEngine On
 
     # HTTPS only
-    RewriteCond %{HTTPS} !=on
-    RewriteRule ^/?(.*) https://%{SERVER_NAME}/notices/$1 [R,L]
+    # RewriteCond %{HTTPS} !=on
+    # RewriteRule ^/?(.*) https://%{SERVER_NAME}/notices/$1 [R,L]
 
     # Determine the RewriteBase automatically and set it as environment variable.
     # If you are using Apache aliases to do mass virtual hosting or installed the
@@ -73,5 +73,3 @@ DirectoryIndex index.php
 
 SetEnv APP_ENV prod
 SetEnv SYMFONY_ENV prod
-
-
