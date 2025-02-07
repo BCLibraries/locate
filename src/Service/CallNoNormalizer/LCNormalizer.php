@@ -189,8 +189,6 @@ class LCNormalizer implements CallNumberNormalizer
      */
     private function formatCutterNumber(?string $cutter_number): string
     {
-        $cutter_number = is_null($cutter_number) ? '' : $cutter_number;
-
         # Right-pad number with zeroes.
         $padded_cutter_number = str_pad($cutter_number, 4, '0');
 
