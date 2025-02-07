@@ -138,3 +138,13 @@ input:valid + span:after {
   left: 0;
   padding: 1em;
 }
+
+.btn-primary:disabled {
+  background-color: lightgray;
+  border: 1px solid gray;
+}
+
+.text-to-phone-notice {
+  margin-top: 1em;
+  font-size: 14px;
+}
