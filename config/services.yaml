@@ -36,3 +36,10 @@ services:
             $clickatell_password: '%env(resolve:CLICKATELL_PASSWORD)%'
             $clickatell_id: '%env(resolve:CLICKATELL_ID)%'
 
+    App\Service\EmailService\Emailer:
+        arguments:
+            $smtp_host: '%env(resolve:SMTP_HOST)%'
+            $smtp_from: '%env(resolve:SMTP_FROM)%'
+            $header_from: '%env(resolve:HEADER_FROM)%'
+            $reply_to: '%env(resolve:REPLY_TO)%'
+
