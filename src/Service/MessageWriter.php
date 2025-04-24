@@ -52,7 +52,7 @@ class MessageWriter
 
         $url = $this->createURL($library, $call_number, $clean_title);
 
-        return "Boston College Library book $call_number $title is in $location_string $url";
+        return "Boston College Library book $call_number $title is in $location_string<br/>$url";
     }
 
 

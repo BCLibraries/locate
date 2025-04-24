@@ -34,7 +34,7 @@ class EmailController extends AbstractController
         $this->mailer->send($email, $message, "BC Libraries book - $title");
 
         return $this->render('sms/index.html.twig', [
-            'controller_name' => 'SMSController',
+            'controller_name' => 'EmailController',
         ]);
     }
 }

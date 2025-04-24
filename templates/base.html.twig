@@ -23,7 +23,7 @@
         {{ encore_entry_script_tags('app') }}
     {% endblock %}
 </head>
-<body data-foo="bar">
+<body data-foo="bar" data-shelf-route="{{ path('shelf') | escape('js') }}" data-email-route=" {{ path('email') | escape('js') }}">
 <div class="container">
     {% block body %}{% endblock %}
 </div>

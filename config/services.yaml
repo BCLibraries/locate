@@ -31,7 +31,7 @@ services:
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
 
-    App\Service\SMSService\SMSClient:
+    App\Service\SMSService\SMSWriter:
         arguments:
             $clickatell_password: '%env(resolve:CLICKATELL_PASSWORD)%'
             $clickatell_id: '%env(resolve:CLICKATELL_ID)%'
@@ -40,6 +40,5 @@ services:
         arguments:
             $smtp_host: '%env(resolve:SMTP_HOST)%'
             $smtp_from: '%env(resolve:SMTP_FROM)%'
-            $header_from: '%env(resolve:HEADER_FROM)%'
             $reply_to: '%env(resolve:REPLY_TO)%'
 
