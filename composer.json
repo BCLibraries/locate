@@ -22,6 +22,7 @@
     "symfony/flex": "^1.9",
     "symfony/framework-bundle": "5.3.*",
     "symfony/http-client": "5.3.*",
+    "symfony/monolog-bundle": "^3.8",
     "symfony/phpunit-bridge": "^5.3",
     "symfony/twig-bundle": "5.3.*",
     "symfony/validator": "5.3.*",
