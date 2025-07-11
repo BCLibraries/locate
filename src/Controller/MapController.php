@@ -56,6 +56,9 @@ class MapController extends AbstractController
 
 
         $normalized_call_number = $this->normalizer->normalize($call_number);
+
+        if ($call_number === 'Newspaper') { $normalized_call_number = $this->normalizer->normalize('QC321'); } // Newspapers on shelf 43
+
         $shelf = $this->shelf_repository->findOneByLibraryAndCallNumber($library_code, $normalized_call_number);
 
         if (null === $shelf) {
